@@ -6,4 +6,3 @@ Chaque ann&#233;e est en charge d'un dossier. Ce dossier contiendra tous les fic
 **N'&#201;DITEZ QUE DANS VOTRE DOSSIER D&#201;SIGN&#201; SVP!**
 <br><br>
 Pour &#233;diter votre dossier, nous continuerons &#224; utiliser vscode.
-hello
