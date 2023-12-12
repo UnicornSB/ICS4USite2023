@@ -4,7 +4,8 @@ h1{
 h2{
     color: green;
 }
-button{
+div{
+    background-color: black;
     width: 5cm;
     height: 5cm;
 }
