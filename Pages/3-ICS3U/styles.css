@@ -1,0 +1,15 @@
+#headerdiv {
+    background-color: #040629;
+    font-family: "Roboto";
+    font-size: medium;
+}
+
+#header-transparent {
+    font-family: "Roboto";
+    height: 5em;
+    background-color: rgba(255, 255, 255, 0.418);
+}
+
+body {
+    background-color: rgb(34, 46, 65);
+}
