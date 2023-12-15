@@ -1,9 +1,19 @@
 #headerdiv {
     background-color: #040629;
-    font-family: "Roboto";
+    font-family: "Comfortaa";
     font-size: medium;
+    color: white;
+    display: flex;
 }
-
+#course{
+    color: #ebb434;
+    font-family: "Comfortaa";
+    font-size: medium;
+    flex-direction: row;
+}
+p{
+    flex-direction: row;
+}
 #header-transparent {
     font-family: "Roboto";
     height: 5em;
