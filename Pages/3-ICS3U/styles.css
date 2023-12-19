@@ -4,6 +4,7 @@
     font-size: medium;
     color: white;
     display: flex;
+    
 }
 #course{
     color: #ebb434;
@@ -15,11 +16,43 @@ p{
     flex-direction: row;
 }
 #header-transparent {
-    font-family: "Roboto";
+    font-family: "IBM Plex Sans Condensed";
     height: 5em;
     background-color: rgba(255, 255, 255, 0.418);
+    position: absolute;
+    width: 100%;
+    display: flex;
 }
-
+#navigation{
+    margin-left: 50em;
+    display: flex;
+}
+.option a{
+    list-style-type: none;
+    text-decoration: none;
+}
 body {
-    background-color: rgb(34, 46, 65);
+    background-color: #ebb434;
+    background-image: url("Images/p.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+#main{
+    font-family: "IBM Plex Sans Condensed";
+}
+#preface{
+    font-size: large;
+}
+#maintitle{
+    font-size: larger;
+}
+#maindescription{
+    font-size: medium;
+}
+#clicker{
+    background-color: #3503a1;
+    font-size: large;
+    border-radius: 30%;
+    color: white;
 }
