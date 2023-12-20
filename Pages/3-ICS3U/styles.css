@@ -6,6 +6,9 @@
     display: flex;
     size: 1.5em;
     padding-left: 1em;
+    margin-top: -0.8em;
+    margin-left: -0.8em;
+    width: 100%;
 }
 #course{
     color: #ebb434;
@@ -14,18 +17,23 @@
 }
 #header-transparent {
     font-family: "IBM Plex Sans Condensed";
-    height: 5em;
+    height: 6em;
     background-color: rgba(255, 255, 255, 0.418);
     width: 100%;
     display: flex;
     color: white;
     font-weight: bold;
     font-size: 0.9em;
+    padding-left: 2em;
+    margin-left: -0.8em;
+}
+#title{
+    margin-top: 0.8em;
 }
 #navigation{
-    margin-left: 35em;
+    margin-left: 46em;
     display: flex;
-    margin-top: 1.7em;
+    margin-top: 2.1em;
 }
 #navigation li{
     list-style-type: none;
@@ -37,27 +45,34 @@
     color: white;
     font-size: 1.1em;
     margin-left: 2em;
+    transition: all 1s ease-in-out;
 }
 .option a:hover{
-    color: rgb(194, 138, 16);
+    color: rgb(97, 21, 91);
 }
 body {
- background-image: url("Images/macos.jpg");
+    background-image: url("Images/macos.jpg");
     /*background-color: #312841;*/
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
 #main{
+    margin-top: 7em;
+    margin-left: 4em;
     font-family: "IBM Plex Sans Condensed";
 }
 #preface{
     font-size: large;
     color: white;
+    font-weight: bold;
 }
 #maintitle{
-    font-size:x-large;
+    font-size:xx-large;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
     color: white;
+    font-weight: bold;
 }
 #maindescription{
     font-size: medium;
@@ -65,8 +80,16 @@ body {
 }
 #clicker{
     background-color: #3503a1;
-    font-size: large;
+    font-size: medium;
     border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     font-family: "IBM Plex Sans Condensed";
+}
+#networking{
+    color: white;
+    flex-direction: row;
 }
