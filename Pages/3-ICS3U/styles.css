@@ -27,9 +27,12 @@ p{
     margin-left: 50em;
     display: flex;
 }
-.option a{
+#navigation li{
     list-style-type: none;
+}
+.option a{
     text-decoration: none;
+    margin-left: 2em;
 }
 body {
     background-color: #ebb434;
