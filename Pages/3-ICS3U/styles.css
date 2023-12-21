@@ -16,11 +16,13 @@
     flex-direction: row;
 }
 #networking{
-    
+    display: flex;
+    margin-top: 1em;
+    margin-left: 75em;
 }
 #networking li{
 list-style-type: none;
-margin-left: 1em;
+margin-left: 2em;
 flex-direction: row;
 }
 #networking a{
@@ -84,7 +86,7 @@ body {
     margin-top: 0.1em;
     margin-bottom: 0.1em;
     color: white;
-    font-weight: bold;
+    font-weight: 600;
 }
 #maindescription{
     font-size: medium;
