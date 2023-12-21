@@ -6,10 +6,11 @@
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=IBM Plex Sans Condensed' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src = "script.js" defer></script>
 </head>
 <header>
-    <div id = "headerdiv">
-     <p>Vous êtes rendu sur la page de<span id = "course"> ICS3U </span>(Youpi!)</p>
+    <div id="headerdiv">
+        <p>Vous êtes rendu sur la page de<span id="course"> ICS3U </span>(Youpi!)</p>
         <div id="networking">
             <li><a href="https://www.facebook.com/ESPDeLaSalle/"><i class="fa fa-facebook"></i></a></li>
             <li><a href="https://twitter.com/ESPDeLaSalle"><i class="fa fa-twitter"></i></a></li>
@@ -18,42 +19,49 @@
         </div>
     </div>
 </header>
+
 <body>
 
-<div id="header-transparent">
-    <h1 id = "title">
-        PAGE D'ACCUEIL ICS3U
-    </h1>
-    <div >
-        <ul id="navigation">
-            <li class="option"><a href="#"> ACCUEIL </a></li>
-            <li class="option"><a href="#"> OPTIONS </a></li>
-            <li class="option"><a href="#"> COURS</a></li>
-            <li class="option"><a href="#"> ÉVALUATIONS</a></li>
-        </ul>
+    <div id="header-transparent">
+        <h1 id="title">
+            PAGE D'ACCUEIL ICS3U
+        </h1>
+        <div>
+            <ul id="navigation">
+                <li class="option"><a href="#"> ACCUEIL </a></li>
+                <li class="option"><a href="#"> OPTIONS </a></li>
+                <li class="option"><a href="#"> COURS</a></li>
+                <li class="option"><a href="#"> ÉVALUATIONS</a></li>
+            </ul>
+        </div>
+
     </div>
 
-</div>
+    <div id="main">
+        <p id="preface">Bonjour!</p>
+        <p id="maintitle">Bienvenue sur la page de ICS3U</p>
+        <p id="maindescription">Ici, vous pouvez trouver tout l'information pertinente sur le programme
+            <br>
+            <br>
+            dont le syllabus avec des descriptions détaillées des travaux, les évaluations sommatives, les unités, et
+            les formatifs.
+        </p>
+        <div id="clicker"><a href="#">DÉCOUVREZ</a></div>
 
-<div id = "main">
-    <p id = "preface">Bonjour!</p>
-    <p id = "maintitle">Bienvenue sur la page de ICS3U</p>
-    <p id = "maindescription">Ici, vous pouvez trouver tout l'information pertinente sur le programme  
-        <br>
-        <br>
-        dont le syllabus avec des descriptions détaillées des travaux, les évaluations sommatives, les unités, et les formatifs.
-    </p>
-    <div id = "clicker"><a href ="#">DÉCOUVREZ</a></div>
 
-
-</div>
+    </div>
 </body>
 <div class="slider">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-    <div class="item">4</div>
-    <div class="item">5</div>
-    <div class="item">6</div>
+    <div class="sliderwidth">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
 </div>
+<button type="button" class="btn" oncanplay="prev()">Prev</button>
+<button type="button" class="btn" oncanplay="next()">Next</button>
+
 </html>

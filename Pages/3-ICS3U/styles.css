@@ -5,10 +5,12 @@
     color: white;
     display: flex;
     size: 1.5em;
-    padding-left: 1em;
     margin-top: -0.8em;
-    margin-left: -0.8em;
+    margin-left: -0.6em;
     width: 100%;
+}
+#headerdiv p{
+    padding-left: 1em;
 }
 #course{
     color: #ebb434;
@@ -32,17 +34,17 @@ flex-direction: row;
 #header-transparent {
     font-family: "IBM Plex Sans Condensed";
     height: 6em;
-    background-color: rgba(255, 255, 255, 0.418);
+    background-color: rgba(209, 209, 209, 0.418);
     width: 100%;
     display: flex;
     color: white;
     font-weight: bold;
     font-size: 0.9em;
-    padding-left: 2em;
-    margin-left: -0.8em;
+    margin-left: -0.6em;
 }
 #title{
     margin-top: 0.8em;
+    padding-left: 2em;
 }
 #navigation{
     margin-left: 46em;
@@ -111,4 +113,46 @@ body {
     font-size: medium;
     text-decoration: none;
 }
-
+.slider{
+    position: relative;
+    overflow-x: hidden;
+    height: 200px;
+    display: flex;
+    margin-top: 2em;
+}
+.sliderwidth{
+    position: absolute;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    left: 0;
+    top: 0;
+    transition: 0.4s ease-in-out;
+}
+.item{
+    background-color: #3503a1;
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 0.5em;
+}
+.btn{
+    background-color: #3503a1;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+    padding: 6px, 12px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    margin-left: 4em;
+}
