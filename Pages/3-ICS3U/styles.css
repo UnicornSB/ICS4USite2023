@@ -15,6 +15,18 @@
     font-family: "Comfortaa";
     flex-direction: row;
 }
+#networking{
+    
+}
+#networking li{
+list-style-type: none;
+margin-left: 1em;
+flex-direction: row;
+}
+#networking a{
+    color: white;
+    
+}
 #header-transparent {
     font-family: "IBM Plex Sans Condensed";
     height: 6em;
@@ -45,7 +57,7 @@
     color: white;
     font-size: 1.1em;
     margin-left: 2em;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .option a:hover{
     color: rgb(97, 21, 91);
@@ -80,16 +92,21 @@ body {
 }
 #clicker{
     background-color: #3503a1;
-    font-size: medium;
     border-radius: 25px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: fit-content;
+    transition: all 0.5s ease-in-out;
+}
+#clicker:hover{
+    background-color: #290477;
+}
+#clicker a{
     color: white;
     font-family: "IBM Plex Sans Condensed";
+    font-size: medium;
+    text-decoration: none;
 }
-#networking{
-    color: white;
-    flex-direction: row;
-}
+
