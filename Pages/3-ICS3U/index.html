@@ -7,6 +7,8 @@
     <link href='https://fonts.googleapis.com/css?family=IBM Plex Sans Condensed' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src = "script.js" defer></script>
+    <!-- Google Fonts Link For Icons -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"/>
 </head>
 <div class="all">
 <header>
@@ -52,7 +54,34 @@
 
     </div>
 </body>
-<div class="slider" item-display-d = "4" item-display-t="3" item-display-m="1">
+
+<div class="corps">
+<div class="container">
+    <div class="slider-wrapper">
+        <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
+        <div class="image-list">
+            <img src="Images/i1.jpg" alt="img-1" class="image-item">
+            <img src="Images/i2.jpg" alt="img-2" class="image-item">
+            <img src="Images/i3.jpg" alt="img-3" class="image-item">
+            <img src="Images/i4.webp" alt="img-4" class="image-item">
+            <img src="Images/i5.avif" alt="img-5" class="image-item">
+            <img src="Images/i6.avif" alt="img-6" class="image-item">
+            <img src="Images/i7.jpg" alt="img-7" class="image-item">
+            <img src="Images/i8.jpeg" alt="img-8" class="image-item">
+            <img src="Images/i9.jpg" alt="img-9" class="image-item">
+            <img src="Images/i10.avif" alt="img-10" class="image-item">
+        </div>
+        <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
+    </div>
+    <div class="slider-scrollbar">
+        <div class="scrollbar-track">
+            <div class="scrollbar-thumb"></div>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- <div class="slider" item-display-d = "4" item-display-t="3" item-display-m="1">
     <div class="sliderwidth">
         <div class="item">1</div>
         <div class="item">2</div>
@@ -64,6 +93,6 @@
 </div>
 
 <button type="button" class="btn" onclick="prev()">Précédent</button>
-<button type="button" class="btn" onclick="next()">Prochain</button>
+<button type="button" class="btn" onclick="next()">Prochain</button> -->
 </div>
 </html>
