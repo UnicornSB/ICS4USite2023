@@ -38,7 +38,6 @@ header {
     width: 40%;
 
 }
-
 .grandimage #textvid {
     font-size: 0.7em;
     width: 40%;
@@ -47,7 +46,7 @@ header {
     left: 5em;
 }
 .grandimage .slider .list image{
-    gap: 10px;
+    gap: 100px;
     scroll-snap-type: x mandatory;
 }
 .slider{
@@ -65,7 +64,10 @@ header {
     z-index: 5;
     display: flex;
 }
-.list image img{
+.list-image img{
     border-radius:5px;
+    width: 5em;
+    height: 5em;
+    padding-left: 3em;
 }
 
