@@ -49,10 +49,11 @@ header {
     gap: 100px;
     scroll-snap-type: x mandatory;
 }
-.slider{
+#slider{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: auto;
 }
 .slide-button{
     position: absolute;
@@ -66,8 +67,8 @@ header {
 }
 .list-image img{
     border-radius:5px;
-    width: 5em;
-    height: 5em;
+    width: 25pc;
+    height: 15pc;
     padding-left: 3em;
 }
 
