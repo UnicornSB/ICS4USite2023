@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "CustomFont";
+    src: url(Resources/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
+}
+
+body {
+    font-family: "CustomFont";
+}
+
+header {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(134, 140, 147, 255);
+}
+
+#bg-video {
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+    right: 0;
+}
+
+.grandimage {
+    color: white;
+}
+
+.grandimage #titrevid {
+    position: absolute;
+    left: 2.5em;
+    padding-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+    width: 40%;
+
+}
+
+.grandimage #textvid {
+    font-size: 0.7em;
+    width: 40%;
+    position: relative;
+    bottom: 2em;
+    left: 5em;
+}
