@@ -46,3 +46,26 @@ header {
     bottom: 2em;
     left: 5em;
 }
+.grandimage .slider .list image{
+    gap: 10px;
+    scroll-snap-type: x mandatory;
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-button{
+    position: absolute;
+    top:50%;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    z-index: 5;
+    display: flex;
+}
+.list image img{
+    border-radius:5px;
+}
+
