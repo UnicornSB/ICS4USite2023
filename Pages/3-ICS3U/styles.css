@@ -1,5 +1,5 @@
 .all{
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 #headerdiv {
     background-color: #181818;
@@ -29,6 +29,7 @@
 list-style-type: none;
 margin-left: 2em;
 flex-direction: row;
+margin-top: 4px;
 }
 #networking a{
     color: white;
@@ -43,7 +44,7 @@ flex-direction: row;
     color: white;
     font-weight: bold;
     font-size: 0.9em;
-    margin-left: -0.6em;
+    margin-left: 0em;
 }
 #title{
     margin-top: 0.8em;
@@ -118,10 +119,12 @@ body {
 }
 .slider{
     position: relative;
-    overflow-x: hidden;
+    overflow-x: auto;
+    overflow-y: visible;
     height: 200px;
     display: flex;
     margin-top: 2em;
+    scrollbar-width: none;
 }
 .sliderwidth{
     position: absolute;
@@ -154,10 +157,11 @@ body {
     color: white;
     font-size: 20px;
     margin: 20px;
-    padding: 6px, 12px;
+    padding: 10px;
     cursor: pointer;
     position: absolute;
     left: 42%;
+    border-radius:25px;
 }
 .btn:last-child{
     margin-left: 155px;
