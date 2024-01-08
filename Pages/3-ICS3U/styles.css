@@ -130,17 +130,22 @@ body {
 .slider-wrapper{
     position: relative;
 }
-.slider-wrapper .slide-button{
+
+.slider-wrapper .slide-button {
     position: absolute;
     top: 50%;
+    outline: none;
+    border: none;
     height: 50px;
     width: 50px;
+    z-index: 5;
     color: #fff;
-    border: none;
-    outline: none;
-    background: #000;
-    font-size: 2.2rem;
+    display: flex;
     cursor: pointer;
+    font-size: 2.2rem;
+    background: #000;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     transform: translateY(-50%);
 }
@@ -167,10 +172,20 @@ body {
    display: none;
 }
 .slider-wrapper .image-list .image-item{
+    width: 450px;
+    height: 400px;
+    background-color:#ebb434;
+}
+.slider-wrapper .image-list .image-item .Logo{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+/* .slider-wrapper .image-list .image-item img{
     width: 325px;
     height: 400px;
     object-fit: cover;
-}
+} */
 .container .slider-scrollbar {
     height: 24px;
     width: 100%;
@@ -187,19 +202,25 @@ body {
 .slider-scrollbar:hover .scrollbar-track{
     height: 4px;
 }
-
+.slider-scrollbar:hover .scrollbar-thumb{
+    background: #000;
+}
 .slider-scrollbar .scrollbar-thumb{
     position: absolute;
     height: 100%;
     width: 50%;
-    background: #000;
+    background: #444;
     border-radius: inherit;
     cursor: grab;
 }
 .slider-scrollbar .scrollbar-thumb:active{
     cursor: grabbing;
+    background: #000;
     height: 8px;
     top: -2px;
+}
+.slider-scrollbar .scrollbar-track:active{
+    height: 4px;
 }
 .slider-scrollbar .scrollbar-thumb::after{
     content:"";
@@ -209,6 +230,25 @@ body {
     top: -10px;
     bottom: -10px;
 }
+
+@media (max-width: 180px) {
+    .slider-wrapper .slide-button {
+        display: none!important;
+    }
+    .slider-wrapper .image-list {
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .slider-wrapper .image-list .image-item {
+        width: 280px;
+        height: 380px;
+    }
+    .slider-scrollbar .scrollbar-thumb{
+        width:  20%;
+    }
+}
+
 /* .slider{
     position: relative;
     overflow-x: auto;
