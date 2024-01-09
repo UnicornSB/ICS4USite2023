@@ -61,7 +61,7 @@ header {
     overflow-x: auto;
 }
 
-.slide-button {
+#next-slide, #prev-slide {
     position: absolute;
     top: 50%;
     outline: none;
