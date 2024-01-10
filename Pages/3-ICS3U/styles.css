@@ -12,9 +12,7 @@
     margin-left: -0.6em;
     width: 100%;
 }
-#headerdiv p{
-    padding-left: 1em;
-}
+
 #course{
     color: #ebb434;
     font-family: "Comfortaa";
@@ -48,7 +46,7 @@ margin-top: 4px;
 }
 #title{
     margin-top: 0.8em;
-    padding-left: 2em;
+    
 }
 #navigation{
     margin-left: 46em;
@@ -171,13 +169,36 @@ body {
 .slider-wrapper .image-list::-webkit-scrollbar{
    display: none;
 }
+.slider-wrapper .image-list a{
+    text-decoration: none;
+}
 .slider-wrapper .image-list .image-item{
     width: 450px;
     height: 400px;
-    background-color:#ebb434;
+    background-image: url(Images/fond-unites.webp);
+    border-radius: 10%;
+    top: 10px;
+    
 }
-.slider-wrapper .image-list .image-item .Logo{
-    font-size: 10px;
+.slider-wrapper .image-list .image-item:hover{
+    
+}
+.slider-wrapper .image-list .image-item .nom-unites{
+   font-size: 28px;
+   font-family: "Comfortaa";
+   color: white;
+   text-align: center;
+   padding-top: 2em;
+}
+.slider-wrapper .image-list .image-item .description-unites{
+    font-size: 17px; 
+    font-family: "IBM Plex Sans Condensed";
+    color: white;
+    text-align: center;
+}
+.slider-wrapper .image-list .image-item .langue{
+    font-size: 13px; 
+    font-family: "IBM Plex Sans Condensed";
     color: white;
     text-align: center;
 }
@@ -231,7 +252,7 @@ body {
     bottom: -10px;
 }
 
-@media (max-width: 180px) {
+@media (max-width: 1023) {
     .slider-wrapper .slide-button {
         display: none!important;
     }
