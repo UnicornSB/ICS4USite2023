@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -27,17 +28,29 @@
             <p>des leçons essentielles pour faire les travaux à réaliser et à placer sur ton site web personnel et ton drive.</p>
             <p> Ces travaux doivent être organisés par unités pour me permettre de les corriger avec facilité.</p>
         </div>
-   <div class id="slider">
-    <button id="prev-slide" class="material-icons">arrow_back_ios</button>
-    <ul class="list-image">
-        <img class="image-item" src="https://static.vecteezy.com/system/resources/thumbnails/001/882/922/small/book-seamless-pattern-background-vector.jpg">
-        <img class="image-item" src="https://static.vecteezy.com/system/resources/thumbnails/001/882/922/small/book-seamless-pattern-background-vector.jpg">
-        <img class="image-item" src="https://static.vecteezy.com/system/resources/thumbnails/001/882/922/small/book-seamless-pattern-background-vector.jpg">
-        <img class="image-item" src="https://static.vecteezy.com/system/resources/thumbnails/001/882/922/small/book-seamless-pattern-background-vector.jpg">
-        <img class="image-item" src="https://static.vecteezy.com/system/resources/thumbnails/001/882/922/small/book-seamless-pattern-background-vector.jpg">
-    </ul>
-    <button id="next-slide" class="material-icons">arrow_forward _ios</button>
-   </class>
+        <div class="container">
+            <div class="slider-wrapper">
+              <button id="prev-slide" class="slide-button material-symbols-rounded">
+                chevron_left
+              </button>
+              <ul class="image-list">
+                <img class="image-item" src="Resources/book-seamless-pattern-background-vector.jpg" alt="img-1" />
+                <img class="image-item" src="Resources/book-seamless-pattern-background-vector.jpg" alt="img-2" />
+                <img class="image-item" src="Resources/book-seamless-pattern-background-vector.jpg" alt="img-3" />
+                <img class="image-item" src="Resources/book-seamless-pattern-background-vector.jpg" alt="img-4" />
+                <img class="image-item" src="Resources/book-seamless-pattern-background-vector.jpg" alt="img-5" />
+                
+              </ul>
+              <button id="next-slide" class="slide-button material-symbols-rounded">
+                chevron_right
+              </button>
+            </div>
+            <div class="slider-scrollbar">
+              <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
+              </div>
+            </div>
+          </div>
         </section>
 
 </body>
