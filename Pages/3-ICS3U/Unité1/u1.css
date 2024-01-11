@@ -1,4 +1,98 @@
+html{
+    background-image: url(abstract-in-macbook-pro-2023_600x338-mm-90.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
 h1{
     text-align: center;
     font-family: "Comfortaa";
+}
+.center-divs{
+    display: flex;
+    margin-left: 14em;
+}
+.center-divs .box-title{
+    font-size: 28px;
+   font-family: "Comfortaa";
+   color: white;
+   text-align: center;
+   padding-top: 0.5em;
+}
+.Leçons{
+    border-radius: 3em;
+    background: grey;
+    height: 40em;
+    width: 20em; 
+    margin-left: 1em;
+    background-image: url(fond-unites.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lecon-item{
+    border-radius: 3em;
+    background: rgb(212, 212, 212);
+    height: 3em;
+    width: 18em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    display: flex;
+}
+.lecon-item p{
+    margin-left: 1em;
+    font-family: "Comfortaa";
+    
+}
+.lecon-item button{
+    margin-left: 6.2em;
+    font-family: "Comfortaa";
+    margin-top: 0.2em;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #000000;
+    cursor: pointer;
+    background: transparent;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+.lecon-item button:hover{
+    transform: rotate(90deg);
+    background: transparent;
+}
+.Travaux{
+    border-radius: 3em;
+    background: grey;
+    height: 40em;
+    width: 20em; 
+    margin-left: 1em;
+    background-image: url(fond-unites.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lecon-item button{
+    margin-left: 8em;
+    font-family: "Comfortaa";
+    margin-top: 0.2em;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    background: #818181;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+@keyframes rotation{
+
 }

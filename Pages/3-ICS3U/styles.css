@@ -1,5 +1,6 @@
-.all{
-    overflow-x: auto;
+html body{
+    overflow-x: hidden;
+    max-width: 100%;
 }
 #headerdiv {
     background-color: #181818;
@@ -69,7 +70,7 @@ margin-top: 4px;
     color: rgb(97, 21, 91);
 }
 body {
-    background-image: url("Images/macos.jpg");
+    background-image: url("Images/xzwS8uCWJXOEh-mV1zECPn6hdct_JBnOxKg85cPrwRQ.jpg");
     /*background-color: #312841;*/
     background-repeat: no-repeat;
     background-size: cover;
