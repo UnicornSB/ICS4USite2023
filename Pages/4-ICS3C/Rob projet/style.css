@@ -38,15 +38,17 @@ header {
 .grandimage #textvid {
     text-align: left;
     padding-top: 2em;
-    margin-bottom: 2em;
     font-size: 1em;
-    width: 100%;
+    width: 40%;
     padding-left: 5em;
 }
 
 .container {
     max-width: 1200px;
     width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .slider-wrapper {
@@ -88,7 +90,7 @@ header {
   .slider-wrapper .image-list {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    gap: 18px;
+    gap: 50px;
     font-size: 0;
     list-style: none;
     margin-bottom: 30px;
