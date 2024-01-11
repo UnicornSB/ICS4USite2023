@@ -103,9 +103,10 @@ header {
   }
   
   .slider-wrapper .image-list .image-item {
-    width: 325px;
+    width: 400px;
     height: 400px;
-    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
   }
   
   /* Styles for mobile and tablets */
