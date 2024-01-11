@@ -181,7 +181,7 @@ body {
     
 }
 .slider-wrapper .image-list .image-item:hover{
-    
+    background-image: url(Images/fond-unites-foncé.webp);
 }
 .slider-wrapper .image-list .image-item .nom-unites{
    font-size: 28px;
