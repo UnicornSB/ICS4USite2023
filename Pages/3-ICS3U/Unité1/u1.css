@@ -93,6 +93,228 @@ h1{
     text-align: center;
     align-items: center;
 }
-@keyframes rotation{
 
+.lecon-item-2{
+    border-radius: 3em;
+    background: rgb(212, 212, 212);
+    height: 3em;
+    width: 18em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    display: flex;
 }
+.lecon-item-2 p{
+    margin-left: 1em;
+    font-family: "Comfortaa";
+    
+}
+.lecon-item-2 button{
+    margin-left: 6.2em;
+    font-family: "Comfortaa";
+    margin-top: 0.2em;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #000000;
+    cursor: pointer;
+    background: transparent;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+.lecon-item-2 button:hover{
+    transform: rotate(90deg);
+    background: transparent;
+}
+
+
+.lecon-item-2 button{
+    margin-left: 8em;
+    font-family: "Comfortaa";
+    margin-top: 0.2em;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    background: #818181;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.lecon-item-3{
+    border-radius: 3em;
+    background: rgb(212, 212, 212);
+    height: 3em;
+    width: 18em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    display: flex;
+}
+.lecon-item-3 p{
+    margin-left: 1em;
+    font-family: "Comfortaa";
+    
+}
+.lecon-item-3 button{
+    margin-left: 6.2em;
+    font-family: "Comfortaa";
+    margin-top: 0.2em;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #000000;
+    cursor: pointer;
+    background: transparent;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+.lecon-item-3 button:hover{
+    transform: rotate(90deg);
+    background: transparent;
+}
+
+
+.lecon-item-3 button{
+    margin-left: 8em;
+    font-family: "Comfortaa";
+    margin-top: 0.2em;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    background: #818181;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.lecon-item-4{
+    border-radius: 3em;
+    background: rgb(212, 212, 212);
+    height: 3em;
+    width: 18em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    display: flex;
+}
+.lecon-item-4 p{
+    margin-left: 1em;
+    font-family: "Comfortaa";
+    
+}
+.lecon-item-4 button{
+    margin-left: 6.2em;
+    font-family: "Comfortaa";
+    margin-top: 0.2em;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #000000;
+    cursor: pointer;
+    background: transparent;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+.lecon-item-4 button:hover{
+    transform: rotate(90deg);
+    background: transparent;
+}
+
+
+.lecon-item-4 button{
+    margin-left: 8em;
+    font-family: "Comfortaa";
+    margin-top: 0.2em;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    background: #818181;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+.lecon-item-5{
+    border-radius: 3em;
+    background: rgb(212, 212, 212);
+    height: 3em;
+    width: 18em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    display: flex;
+}
+.lecon-item-5 p{
+    margin-left: 1em;
+    font-family: "Comfortaa";
+    
+}
+.lecon-item-5 button{
+    margin-left: 6.2em;
+    font-family: "Comfortaa";
+    margin-top: 0.2em;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #000000;
+    cursor: pointer;
+    background: transparent;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+.lecon-item-5 button:hover{
+    transform: rotate(90deg);
+    background: transparent;
+}
+
+
+.lecon-item-5 button{
+    margin-left: 8em;
+    font-family: "Comfortaa";
+    margin-top: 0.2em;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    cursor: pointer;
+    background: #818181;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+

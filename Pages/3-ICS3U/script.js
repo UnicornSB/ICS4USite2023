@@ -63,3 +63,9 @@ const initSlider = () => {
     } )
 }
 window.addEventListener("load", initSlider);
+
+const sliderdivs = document.querySelectorAll(".slider-wrapper .image-item");
+const div = document.querySelector(".image-item");
+sliderdivs[0].addEventListener("click", () => {
+    window.open("u1");
+});
