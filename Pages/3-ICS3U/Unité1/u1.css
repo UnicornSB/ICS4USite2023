@@ -60,10 +60,10 @@ h1{
     align-items: center;
     transition: all 1s ease-in-out;
 }
-.lecon-item button:hover{
+/* .lecon-item button:hover{
     transform: rotate(90deg);
     background: transparent;
-}
+} */
 .Travaux{
     border-radius: 3em;
     background: grey;
