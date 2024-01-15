@@ -1,0 +1,12 @@
+
+.row{
+   display: flex;
+   position: absolute;
+    text-align: center;
+    width: 100%;
+}
+#meetings{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
