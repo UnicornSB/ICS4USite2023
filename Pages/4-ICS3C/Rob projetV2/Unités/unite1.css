@@ -36,6 +36,11 @@
  .lesson{
      background-color: rgb(230, 99, 230);
      border-radius: 5em;
+ 
+ }
+ .lesson:hover{
+     transform: translate(42px, 18px);
+     scale: 1.2;
  }
  #lessontext{
  width: 70%;
@@ -47,6 +52,9 @@
   margin-left: 2em;
   margin-right: 2em;
  }
+ .activités:hover{
+     scale: 1.2;
+ }
  #act{
      padding-left: 2em;
  }
@@ -55,3 +63,8 @@
      border-radius: 5em;
      text-align: center;
  }
+ .formatif:hover{
+     transform: translate(-42px, -18px);
+     scale: 1.2;
+ }
+ 
