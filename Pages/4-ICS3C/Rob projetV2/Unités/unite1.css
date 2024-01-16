@@ -1,12 +1,57 @@
 
 .row{
-   display: flex;
-   position: absolute;
-    text-align: center;
-    width: 100%;
-}
-#meetings{
     display: flex;
-    flex-direction: column;
-    color: gray;
-}
+    position: absolute;
+     text-align: center;
+     width: 100%;
+     margin-bottom: 3em;
+ }
+ #meetings{
+     display: flex;
+     flex-direction: column;
+     color: gray;
+ }
+ #top{
+     background-color: aqua;
+     padding-bottom: 3em;
+     border-radius: 5em;
+ }
+ #titre{
+     text-align: center;
+     font-weight: bold;
+     font-size: 3em
+ }
+ #texttop{ 
+     font-size: 0.8em;
+ }
+ .rest{
+   padding-top: 3em;
+     display: flex;
+     flex-direction: row;
+ 
+ }
+ body{
+     background-color:wheat ;
+ }
+ .lesson{
+     background-color: rgb(230, 99, 230);
+     border-radius: 5em;
+ }
+ #lessontext{
+ width: 70%;
+ text-align: center;
+ } 
+ .activités{
+     background-color: aquamarine;
+     border-radius: 5em;
+  margin-left: 2em;
+  margin-right: 2em;
+ }
+ #act{
+     padding-left: 2em;
+ }
+ .formatif{
+     background-color:  rgb(230, 99, 230);
+     border-radius: 5em;
+     text-align: center;
+ }
