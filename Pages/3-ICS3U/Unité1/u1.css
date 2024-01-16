@@ -7,6 +7,7 @@ html{
 h1{
     text-align: center;
     font-family: "Comfortaa";
+    color: white;
 }
 .center-divs{
     display: flex;
@@ -37,6 +38,9 @@ h1{
     margin-left: 1em;
     margin-top: 0.5em;
     display: flex;
+}
+.lecon-item:hover{
+    transform: scale(105%);
 }
 .lecon-item p{
     margin-left: 1em;
@@ -79,10 +83,59 @@ h1{
 .Travaux{
     border-radius: 3em;
     background: grey;
-    height: 40em;
-    width: 20em; 
+    height: 46em;
+    width: 28em; 
     margin-left: 1em;
     background-image: url(fond-unites.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
+.travail-item{
+    border-radius: 3em;
+    background: rgb(212, 212, 212);
+    height: 3em;
+    width: 26em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    display: flex;
+}
+.travail-item:hover{
+    transform: scale(105%);
+}
+.travail-item p{
+    margin-left: 1em;
+    font-family: "Comfortaa";
+    font-size: 15px;
+    width: 23em;
+}
+.travail-item button{
+    /* margin-left: 6.2em; */
+    margin-top: 0.1em;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    color: #9e9e9e;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+.travail-item a{
+    background-color: transparent;
+    color: #9e9e9e;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+.travail-item .button:hover{
+    cursor: default;
+}
+.travail-item .material-symbols-rounded:hover{
+    transform: scale(105%);
+    color: #595959;
+}
+.travail-item .material-symbols-rounded:active{
+    color: rgb(255, 194, 81);
