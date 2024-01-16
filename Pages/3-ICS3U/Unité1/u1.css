@@ -1,36 +1,42 @@
-html{
+html {
     background-image: url(red.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
 }
-h1{
+
+h1 {
     text-align: center;
     font-family: "Comfortaa";
     color: white;
 }
-.center-divs{
+.gras{
+    font-weight: bold;
+}
+.center-divs {
     display: flex;
-    margin-left: 14em;
 }
-.center-divs .box-title{
+
+.center-divs .box-title {
     font-size: 28px;
-   font-family: "Comfortaa";
-   color: white;
-   text-align: center;
-   padding-top: 0.5em;
+    font-family: "Comfortaa";
+    color: white;
+    text-align: center;
+    padding-top: 0.5em;
 }
-.Leçons{
+
+.Leçons {
     border-radius: 3em;
     background: grey;
     height: 46em;
-    width: 28em; 
+    width: 28em;
     margin-left: 1em;
     background-image: url(fond-unites.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.lecon-item{
+
+.lecon-item {
     border-radius: 3em;
     background: rgb(212, 212, 212);
     height: 3em;
@@ -39,16 +45,26 @@ h1{
     margin-top: 0.5em;
     display: flex;
 }
+<<<<<<< HEAD
+
+.lecon-item:hover {
+    transform: scale(105%);
+}
+
+.lecon-item p {
+=======
 .lecon-item:hover{
     transform: scale(105%);
 }
 .lecon-item p{
+>>>>>>> d85ead75fe20463e85abdcc08cb5ea87dcf32f8a
     margin-left: 1em;
     font-family: "Comfortaa";
     font-size: 15px;
     width: 23em;
 }
-.lecon-item button{
+
+.lecon-item button {
     /* margin-left: 6.2em; */
     margin-top: 0.1em;
     outline: none;
@@ -63,33 +79,172 @@ h1{
     text-align: center;
     align-items: center;
 }
-.lecon-item a{
+
+.lecon-item a {
     background-color: transparent;
     color: #9e9e9e;
     font-size: 25px;
     text-decoration: none;
-    
+
 }
-.lecon-item .button:hover{
+
+.lecon-item .button:hover {
     cursor: default;
 }
-.lecon-item .material-symbols-rounded:hover{
+
+.lecon-item .material-symbols-rounded:hover {
     transform: scale(105%);
     color: #595959;
 }
-.lecon-item .material-symbols-rounded:active{
+
+.lecon-item .material-symbols-rounded:active {
     color: rgb(255, 194, 81);
 }
-.Travaux{
+
+.Travaux {
     border-radius: 3em;
     background: grey;
+<<<<<<< HEAD
+    height: 46em;
+    width: 28em;
+=======
     height: 46em;
     width: 28em; 
+>>>>>>> d85ead75fe20463e85abdcc08cb5ea87dcf32f8a
     margin-left: 1em;
     background-image: url(fond-unites.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
+<<<<<<< HEAD
+
+.travail-item {
+    border-radius: 3em;
+    background: rgb(212, 212, 212);
+    height: 3em;
+    width: 26em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    display: flex;
+}
+
+.travail-item:hover {
+    transform: scale(105%);
+}
+
+.travail-item p {
+    margin-left: 1em;
+    font-family: "Comfortaa";
+    font-size: 15px;
+    width: 23em;
+}
+
+.travail-item button {
+    /* margin-left: 6.2em; */
+    margin-top: 0.1em;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    color: #9e9e9e;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.travail-item a {
+    background-color: transparent;
+    color: #9e9e9e;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+.travail-item .button:hover {
+    cursor: default;
+}
+
+.travail-item .material-symbols-rounded:hover {
+    transform: scale(105%);
+    color: #595959;
+}
+
+.travail-item .material-symbols-rounded:active {
+    color: rgb(255, 194, 81);
+}
+
+.évaluations {
+    border-radius: 3em;
+    background: grey;
+    height: 46em;
+    width: 28em;
+    margin-left: 1em;
+    background-image: url(fond-unites.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.évaluation-item {
+    border-radius: 3em;
+    background: rgb(212, 212, 212);
+    height: 3em;
+    width: 26em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    display: flex;
+}
+
+.évaluation-item:hover {
+    transform: scale(105%);
+}
+
+.évaluation-item p {
+    margin-left: 1em;
+    font-family: "Comfortaa";
+    font-size: 15px;
+    width: 23em;
+}
+
+.évaluation-item button {
+    /* margin-left: 6.2em; */
+    margin-top: 0.1em;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    color: #9e9e9e;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.évaluation-item a {
+    background-color: transparent;
+    color: #9e9e9e;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+.évaluation-item .button:hover {
+    cursor: default;
+}
+
+.évaluation-item .material-symbols-rounded:hover {
+    transform: scale(105%);
+    color: #595959;
+}
+
+.évaluation-item .material-symbols-rounded:active {
+    color: rgb(255, 194, 81);
+}
+=======
 .travail-item{
     border-radius: 3em;
     background: rgb(212, 212, 212);
@@ -139,3 +294,4 @@ h1{
 }
 .travail-item .material-symbols-rounded:active{
     color: rgb(255, 194, 81);
+>>>>>>> d85ead75fe20463e85abdcc08cb5ea87dcf32f8a
