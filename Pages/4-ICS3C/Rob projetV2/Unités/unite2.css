@@ -32,7 +32,7 @@
  
  }
  body{
-     background-color:rgb(190, 173, 140) ;
+     background-color:rgb(207, 185, 146) ;
      
  }
  .lesson{
@@ -53,8 +53,8 @@
      border-radius: 5em;
      margin-left: 2em;
      margin-right: 2em;
-     width: 60%;
  }
+
  .activités:hover{
      animation: mid 0.5s forwards ;
  }
