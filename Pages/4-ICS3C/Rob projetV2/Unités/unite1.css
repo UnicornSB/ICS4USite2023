@@ -1,0 +1,114 @@
+
+.row{
+    display: flex;
+    position: absolute;
+     text-align: center;
+     width: 100%;
+     margin-bottom: 3em;
+ }
+ #meetings{
+     display: flex;
+     flex-direction: column;
+     color: gray;
+ }
+ #top{
+     background-color: #9E0508;
+     padding-bottom: 3em;
+     border-radius: 5em;
+     font-size: 1.5em;
+     padding: 2em;
+ }
+ #titre{
+     text-align: center;
+     font-weight: bold;
+     font-size: 3em
+ }
+ #texttop{ 
+     font-size: 0.8em;
+ }
+ .rest{
+   padding-top: 3em;
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     justify-content: space-between;
+ 
+ }
+
+ .lesson{
+     background-color: #C0C0C0;
+     border-radius: 5em;
+     width:20%;
+     padding: 1em;
+     font-size: 1.5em;
+ }
+ .lesson:hover{
+     transform: translate(42px, 18px);
+     scale: 1.2;
+ }
+ #lessontext{
+ width: 70%;
+ text-align: center;
+ } 
+ .activités{
+     background-color:#8289BF;
+     border-radius: 5em;
+     margin-left: 2em;
+     margin-right: 2em;
+     padding: 1em;
+     font-size: 1.5em;
+ }
+
+ .activités:hover{
+     animation: mid 0.5s forwards ;
+ }
+ #act{
+     padding-left: 2em;
+ }
+ .formatif{
+     background-color: #C0C0C0;
+     border-radius: 5em;
+     text-align: center;
+     padding: 1em;
+     font-size: 1.5em;
+
+ }
+ .formatif:hover{
+     transform: translate(-42px, -18px);
+     
+ }
+ 
+ @keyframes mid {
+     0%{
+         scale: 1.05
+     }
+     15%{
+        scale: 1.07
+    }
+     25%{
+         scale: 1.1
+     }
+    35%{
+        scale: 1.125
+    }
+     50%{
+         scale: 1.15
+     }
+     75%{
+        scale: 1.155
+    }
+     100%{
+         scale: 1.2
+     }
+ }
+ #button1{
+position: absolute;
+  left: 41%;
+  color: black;
+  background-color:#9E0508 ;
+  font-size: 1.5em;
+  padding: 1em;
+  border-radius: 1EM;
+  margin-top: 2em;
+  margin-bottom: 1em;
+ }
