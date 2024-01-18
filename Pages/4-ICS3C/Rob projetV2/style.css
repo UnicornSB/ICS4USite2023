@@ -126,8 +126,15 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   height: 500px;
   border-radius: 5px;
 }
+#next-slide {
+  right: 5px;
+}
+li:hover {
+  scale: 1.2;
+}
 /* Section de slider termine */
 
+/* section pour page responsive */
 @media only screen and (max-width: 600PX) {
   .slider-wrapper .slide-button {
     display: none !important;
@@ -147,13 +154,8 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   #prev-slide {
     left: 5px;
 }
+}
+/* Section pour page responsive termine */
 
-#next-slide {
-    right: 5px;
-}
-}
-li:hover {
-  scale: 1.2;
-}
 
 

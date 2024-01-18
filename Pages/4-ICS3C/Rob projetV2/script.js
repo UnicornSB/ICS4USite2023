@@ -1,3 +1,4 @@
+// Section de slider
 const initSlider = () => {
     const imageList = document.querySelector(".slider-wrapper .image-list");
     const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
@@ -16,7 +17,6 @@ const initSlider = () => {
         );
     };
 
-    
     slideButtons.forEach(button => {
         button.addEventListener("click", () => {
             const direction = button.id === "prev-slide" ? -1 : 1;
@@ -64,13 +64,16 @@ const initSlider = () => {
 
 window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
+// Section de slider termine
 
+// Section de boutton
 document.getElementById('syllabus').addEventListener('click', function() {
     window.location.replace("https://drive.google.com/file/d/1wi3WWtBL2T8fzH11M0B5Akq9SyS8O1id/view");
   });
+// Boutton termine
 
+// Secton de modification de description du cours
   let grand = false;
-
   document.getElementById('textvid').addEventListener('click', function() {
     const DIVV = this;
 
