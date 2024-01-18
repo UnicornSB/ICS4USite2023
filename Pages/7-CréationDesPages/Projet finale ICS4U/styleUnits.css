@@ -1,0 +1,92 @@
+*{
+    /* Le CSS pour tout le template */
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-style: normal;
+    overflow: hidden;
+}
+/* Plus de modification apporté à toute la page */
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    max-width: 100%;
+    background-image: url("auditorium.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* CSS apporter au bouton et au titre dans le header */
+header button{
+    position: absolute;
+    top: 1.5em;
+    left: -1em;
+}
+header h1{
+    text-align: center;
+    margin-top: 2vh;
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: row; 
+}
+/* Modifications du CSS de chaque petite boîte qui contient l'information
+entrer par l'utilisateur */
+.lesson, .activité, .formatif{
+    margin: auto;
+    margin-top: 1vh;
+    width: 20em;
+    height: 40em;
+    margin-left: 8vw;
+    margin-right: 2vw;
+    background-color: lightgray;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    background-color: #df0205d3;
+}
+/* CSS du bouton des divs */
+div button{
+    height: 3.5em;
+    width: 8em;
+    text-align: center;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #bb070ad3;
+}
+
+div h2{
+    text-align: center;
+}
+
+.centering{
+    text-align: center;
+}
+
+.widthFull{
+    margin: auto;
+    display: block;
+    width: 90%;
+    margin-bottom: 1em;
+}
+/* Modification du CSS pour les sections */
+.bordering{
+    border-radius: 15px;
+    border-color: black;
+    border-style: solid;
+    padding-top: 0.8em;
+    padding-left: 0.5em;
+    border-width: 0.18em;
+    width: 90%;
+    height: 10%;
+    background-color: #da0205d3;
+    margin: auto;
+    display: none;
+    margin-bottom: 1em;
+}

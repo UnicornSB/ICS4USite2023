@@ -1,0 +1,119 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Lien au Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Titre du page -->
+    <title>Modèle pour les unités</title>
+    <!-- Lien au CSS -->
+    <link rel="stylesheet" href="styleUnits.css"/>
+    <!-- Lien au font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+</head>
+<body>
+   <div class="bg">
+   <!-- La section header inclue le titre et le bouton pour soumettre les données au fichier -->
+   <header>
+      <button id="submit">Soumettre</button>
+      <h1 id="titrePrincipale">Unité #___</h1>
+  </header>
+  <section>
+      <!-- Chaque div est cachée pour chaque activité et lesson qui peut être entrée -->
+      <div class="lesson"> 
+           <h2> Leçons </h2>
+           <div id="lesson1" class="bordering lessonBox"> 
+              <div>Titre: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="lesson2" class="bordering lessonBox"> 
+              <div>Titre: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="lesson3" class="bordering lessonBox"> 
+              <div>Titre: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="lesson4" class="bordering lessonBox"> 
+              <div>Titre: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="lesson5" class="bordering lessonBox"> 
+              <div>Titre: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="addition" hidden = "true">
+            <!-- Chaque input est déplacer vers la bas à chaque fois qu'une nouvelle lesson est créé -->
+            <!-- Ceci est pour entrer des données dans les divs lessons -->
+              <div class="textEtInput">
+                  <div class="centering"><b>Titre de la leçon</b></div>
+                  <input type="text" class="widthFull" id="title1" maxlength="100">
+              </div>
+              <div class="textEtInput">
+                  <div class="centering"><b>Lien vers la leçon</b></div>
+                  <input type="text" class="widthFull" id="input1" maxlength="200">
+              </div>
+           </div>
+           <button id="ajouterlesson">Ajouter une leçon</button>
+      </div>
+      <!-- Cette div est pratiquement identique à la section si-dessus, mais pour les activités -->
+       <div class = "activité"> 
+           <h2> Activités </h2>
+           <div id="act1" class="bordering actBox"> 
+              <div>Titre: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="act2" class="bordering actBox"> 
+              <div>Titres: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="act3" class="bordering actBox"> 
+              <div>Titre: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="act4" class="bordering actBox"> 
+              <div>Titre: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="act5" class="bordering actBox"> 
+              <div>Titre: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="addition2" hidden = "true">
+              <div class="textEtInput">
+                  <div class="centering"><b>Titre de l'activité</b></div>
+                  <input type="text" class="widthFull" id="title2" maxlength="100">
+              </div>
+              <div class="textEtInput">
+                  <div class="centering"><b>Lien a l'activité</b></div maxlength="200">
+                  <input type="text" class="widthFull" id="input2">
+              </div>
+           </div>
+           <button id="ajouteractivité">Ajouter une activité</button>
+       </div>
+       <div class = "formatif"> 
+         <!-- La section des formatives est identique mais ne contient que une boîte 
+         car il y a seulement une formative par unité -->
+           <h2>Formatif de l'unité</h2>
+           <div id="formatif" class="bordering formativeBox"> 
+              <div>Titre: </div>
+              <div>Lien: </div>
+           </div>
+           <div id="addition3" hidden = "true">
+              <div class="textEtInput">
+                  <div class="centering"><b>Titre de la formative</b></div>
+                  <input type="text" class="widthFull" id="title3" maxlength="100">
+              </div>
+              <div class="textEtInput">
+                  <div class="centering"><b>Lien vers la formative</b></div>
+                  <input type="text" class="widthFull" id="input3" maxlength="200">
+              </div>
+           </div>
+           <button id="ajouterformatif">Ajouter une formative</button>
+       </div>
+  </section>
+</div>
+   <!-- Lien au JavaScript -->
+  <script src="scriptUnits.js"></script>
+</body>
+

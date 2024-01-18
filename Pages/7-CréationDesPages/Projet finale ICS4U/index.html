@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Titre du page -->
+        <title>Créateur de page</title>
+        <!-- Lien vers le CSS -->
+        <link rel="stylesheet" href="style.css"/>
+        <!-- Lien vers le JavaScript -->
+        <script src="script.js"></script>
+        <!-- Lien vers le font ainsi que le symbole du slider -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"/>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+      </head>
+    <header>
+      <!-- Endroit ou le header sera ajouter -->
+        <div class="topper">
+            <h1>LE HEADER DEVRAIT ÊTRE ICI MAIS CE DERNIER CUIT NOTRE SITE-WEB LOSQU'ON L'AJOUTE</h1>
+        </div>
+    </header>
+    <!-- Début du la section body -->
+    <body>
+    <section>
+        <div>
+            <div>
+              <!-- Tout les titres ce font ajouter dynamiquement dans cette section -->
+                <div class = "modifiable">
+                    <button id="startCreation">COMMENCER LA CRÉATION DE VOTRE SITE!</button>
+                </div>
+            </div>
+        </div>
+        <div>
+        <!-- Cette section est la section qui glisse dans l'écran afin d'entrer les données désirées -->
+        <div id="animationslidein">
+          <div class="background">
+            <div class="section-gauche">
+                <h1 class="bb">Ajouter un cours</h1>
+                <div class = titre-code>
+                  <!-- Chaque input dans cette section à son id afin d'aller chercher ses données
+                  pour pouvoir ensuite les mettres dans un fichier -->
+                  <div class="Titre">
+                    <h2>Titre de votre cours:</h2>
+                    <input type="text" id="titre">
+                  </div>
+                  <div class="Code">
+                    <h2>Code de cours:</h2>
+                    <input type="text" id="code">
+                  </div>
+                </div>
+                <div class="Unités">
+                  <!-- Ce menu appelle une fonction afin de faire apparaître le dropdown menu
+                  ce qui permet de choisir le nombre d'unités -->
+                    <button onclick="myFunction()" class="dropbtn">Choisir le nombre d'unités &#9660</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a class="menuItem">1</a>
+                        <a class="menuItem">2</a>
+                        <a class="menuItem">3</a>
+                        <a class="menuItem">4</a>
+                        <a class="menuItem">5</a>
+                    </div>
+                    <h2 id="nombreUnite"></h2>
+                </div>
+                <!-- Données supplementaires a ajouter dans le fichier: description, attentes et images -->
+                <div class="Description">
+                    <h2>Description de votre cours:</h2>
+                    <textarea id="desc1" cols="15" rows="2" maxlength="200"></textarea>
+                </div>
+                <div class="Attentes">
+                    <h2>Attentes de votre cours:</h2>
+                    <textarea id="desc2" cols="15" rows="2" maxlength="200"></textarea>
+                </div>
+                <div class="Images">
+                    <h2>Choisir l'image de fond pour votre cours:</h2>
+                    <input type="text" id="Images">
+                </div>
+                <!-- Boutton pour ajouter les informations -->
+                <button class="Ajouter">AJOUTER</button>
+                </div>
+             </div>
+          </div>
+        </div>
+        <div id="units" class="container">
+          <!-- Cette gros div est celle du slider, qui à été pris de la vidéo incluse avec le projet -->
+            <div class="slider-wrapper">
+              <button id="prev-slide" class="slide-button material-symbols-rounded">
+                chevron_left
+              </button>
+              <ul class="div-list">
+                <!-- Chaque div à son titre et son bouton afin d'aller vers l'autre page d'unité-->
+                <li class="div-item" id="u1">
+                  <div class="blocUnité">
+                    <h2>UNITÉ 1</h2>
+                    <button class="uniting" id="u1">ALLER VERS LA CRÉATION D'UNITÉ</button>
+                  </div>
+                </li>
+                <li class="div-item" id="u2">
+                  <div class="blocUnité">
+                    <h2>UNITÉ 2</h2>
+                    <button class="uniting" id="u2">ALLER VERS LA CRÉATION D'UNITÉ</button>
+                  </div>
+                </li>
+                <li class="div-item" id="u3">
+                  <div class="blocUnité">
+                    <h2>UNITÉ 3</h2>
+                    <button class="uniting" id="u3">ALLER VERS LA CRÉATION D'UNITÉ</button>
+                  </div>
+                </li>
+                <li class="div-item" id="u4">
+                  <div class="blocUnité">
+                    <h2>UNITÉ 4</h2>
+                    <button class="uniting" id="u4">ALLER VERS LA CRÉATION D'UNITÉ</button>
+                  </div>
+                </li>
+                <li class="div-item" id="u5">
+                  <div class="blocUnité">
+                    <h2>UNITÉ 5</h2>
+                    <button class="uniting" id="u5">ALLER VERS LA CRÉATION D'UNITÉ</button>
+                  </div>
+                </li>
+              </ul>
+              <button id="next-slide" class="slide-button material-symbols-rounded">
+                chevron_right
+              </button>
+            </div>
+            <div class="slider-scrollbar">
+              <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
+              </div>
+            </div>
+        </div>
+        <!-- Finalement, il y a le bouton qui appelle la fonction qui installe le fichier -->
+        <button id = "file" value="Save" onclick="saveTextAsFile()"> Sauvegarder les changements </button>
+    </section>
+    <!-- Ce div est utilisé afin de pouvoir plus facilement modifier l'image de background -->
+    <div class="bg"></div>
+    </body>
+</html>
