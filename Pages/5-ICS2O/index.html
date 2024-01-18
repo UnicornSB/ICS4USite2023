@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+
+    <title>ICS2O</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="stylesu.css">
+  </head>
+<body>
+ <!-- ***** TITRE ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+    <!-- vidéo d'arrière plan -->
+      <video autoplay muted loop id="bg-video">
+          <source src="images page principale/broll.mp4" type="video/mp4" />
+      </video>
+      <div class="video-overlay header-text">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="caption">
+              <h6>Chers élèves</h6>
+              <h2>Bienvenue au cours ICS2O</h2>
+              <div class="main-button-red">
+                <!-- lien au classroom -->
+                <button onclick="menubas()" class="menubtn">Ressources de la classe</button>
+                <div id="myDropdown" class="main-button-red-content">
+                  <a href="https://classroom.google.com/c/NjE5NTUwMDA1OTk1">Accéder au Google Classroom</a>
+                  <a href="https://drive.google.com/file/d/1IwRYel6-J-XQ_FISmePvpoc7J0aEQIFc/view">Syllabus</a>
+                  <a href="https://docs.google.com/document/d/1nO0IbgVG_WWEM8JfBRbWtOSSSV-3G3xRIDHT91Z6zDk/edit?usp=sharing">Dates importantes</a>
+              </div>
+            </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <!-- Carousel -->
+      <div class="wrapper">
+        <!-- boutton gauche -->
+        <li id="left" class="material-icons"> chevron_left </a></li>
+        <ul class = 'carousel' id = 'test'>
+          <!-- boîtes d'unité -->
+          <li class="item u1">
+            <div class="icon">
+              <img src="images page principale/service-icon-01.png" alt="" draggable="false">
+            </div>
+            <div class="down-content">
+              <h4>Unité 1</h4>
+              <p>Introduction à l’environnement informatisé</p>
+            </div>
+          </li>
+        
+          <li class="item u2">
+            <div class="icon">
+              <img src="images page principale/service-icon-02.png" alt="" draggable="false">
+            </div>
+            <div class="down-content">
+              <h4>Unité 2</h4>
+              <p>Programmation d'algorithmes de base</p>
+            </div>
+          </li>
+        
+          <li class="item u3">
+            <div class="icon">
+              <img src="images page principale/service-icon-03.png" alt="" draggable="false">
+            </div>
+            <div class="down-content">
+              <h4>Unité 3</h4>
+              <p>Listes et structure de répétitions</p>
+            </div>
+          </li>
+        
+          <li class="item u4">
+            <div class="icon">
+              <img src="images page principale/service-icon-01.png" alt="" draggable="false">
+            </div>
+            <div class="down-content">
+              <h4>Unité 4</h4>
+              <p>Manipulation d'autres contrôles</p>
+            </div>
+          </li>
+        
+          <li class="item u5">
+            <div class="icon">
+              <img src="images page principale/service-icon-02.png" alt="" draggable="false">
+            </div>
+            <div class="down-content">
+              <h4>Unité 5</h4>
+              <p>Algorithmes avancés</p>
+            </div>
+          </li>
+        </ul>
+        <!-- boutton droite -->
+      <li id="right" class="material-icons"> chevron_right </a></li>
+      </div>
+  </section>
+  <!-- ***** Fin de la partie principale ***** -->
+  <!-- ***** Section d'information ***** -->
+  <!-- description et titre -->
+  <div class="information">
+    <h1 id="titre1"></h1>
+    <p id="description"></p>
+</div>
+<!-- liens -->
+<section class="sectionprincipale">
+    <div class="lecon secsize">
+        <h2>Leçons</h2>
+        <ul id ="liste_lecon">
+        </ul>
+    </div>
+    <div class="travaux secsize">
+        <h2>Travaux</h2>
+        <ul id ="liste_travaux">
+        </ul>
+    </div>
+    <div class="formative secsize">
+        <h2>Formative</h2>
+        <ul id ="liste_formative">
+        </ul>
+    </div>
+</section>
+
+<!-- Info de contact/footer -->
+  <section class="contact-us" id="contact1">
+    <div class="col-lg-3">
+      <div class="right-info">
+        <ul>
+          <li>
+            <h6>Numéro de téléphone</h6>
+            <span>(613) 789-0053</span>
+          </li>
+          <li>
+            <h6>Courriel</h6>
+            <span>hakima.ait-hamou@cepeo.on.ca</span>
+          </li>
+          <li>
+            <h6>Addresse</h6>
+            <span>501 Old St. Patrick St 1e étage, Ottawa, ON K1N 8R3</span>
+          </li>
+          <li>
+            <img src="images page principale/dls2.png" alt="" draggable="false">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+    <script src="Script.js" defer></script>
+    <script src="scriptu.js" defer></script>
+
+</body>
+</html>

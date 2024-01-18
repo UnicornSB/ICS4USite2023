@@ -1,0 +1,76 @@
+/* Tout le css pour la partie du milieu, contenant les lecons, travaux, formatifs, etc. */
+
+
+/* section d'information */
+.information{
+    margin-top: -2vh;
+    max-width: 70%;
+    margin:auto;
+    text-align: center;
+}
+
+/* section avec les trois divs (leçon, travaux, formative) */
+.section1 #titre1{
+    text-align: center;
+}
+
+.sectionprincipale{
+    display: flex;
+    padding-left: 6vw;
+    margin:auto;
+    margin-left: 5em;
+    margin-top:5em;
+}
+.lecon, .travaux{
+    margin-right: 10%;
+}
+.lecon h2, .travaux h2, .formative h2{
+    text-align: center;
+}
+#liste_lecon a:hover{
+    color: #a12c2f;
+}
+#liste_travaux a:hover{
+    color: #a12c2f;
+}
+#liste_formative a:hover{
+    color: #a12c2f;
+}
+#liste_formative a, #liste_lecon a, #liste_travaux a{
+    text-decoration: none;
+    color: blue;
+}
+#titre1{
+    color:white;
+}
+#description{
+    color: white;
+}
+
+.secsize{
+    width: 22%;
+    height: max-content;
+    padding-bottom:10px;
+    padding-left:10px;
+    background: radial-gradient(circle at center, white 0, gray, black 100%);
+    border-radius: 15%;
+}
+/* resize pendant le hover */
+.secsize:hover{
+    transform: scale(1.2);
+    background: radial-gradient(circle at center, white 0, gray, rgb(34, 34, 34) 100%);
+}
+/* permet de resize selon la page */
+@media screen and (max-width: 1100px){
+    .sectionprincipale{
+    display: inline;
+    align-items: center;
+    }
+    .secsize{
+        margin:auto;
+        width:70%
+    }
+    .secsize:hover{
+        transform: scale(1.05)
+    }
+}
