@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo-edu-meeting.css">
     <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=IBM Plex Sans Condensed' rel='stylesheet'>
@@ -12,7 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <div class="all">
-    <header>
+    <!-- <header>
         <div id="headerdiv">
             <p>Vous êtes rendu sur la page de<span id="course"> ICS3U </span>(Youpi!)</p>
             <div id="networking">
@@ -39,40 +42,164 @@
                 </ul>
             </div>
 
-        </div>
+        </div> -->
+    <!-- --------- Champs de construction ----------------->
 
-        <div id="main">
-            <p id="preface">Bonjour!</p>
-            <p id="maintitle">Bienvenue sur la page de ICS3U</p>
-            <p id="maindescription">Ici, vous pouvez trouver tout l'information pertinente sur le programme
-                <br>
-                <br>
-                dont le syllabus avec des descriptions détaillées des travaux, les évaluations sommatives, les unités,
-                et
-                les formatifs.
-            </p>
-            <div id="clicker"><a
-                    href="https://drive.google.com/file/d/13hPpb10rj2hSuEC4zij66SX1_-84Pfo5/view?usp=sharing">DÉCOUVREZ
-                    LE SYLLABUS</a></div>
-            <div id="syllabus">
-                <p>
-                    <span class="material-symbols-rounded">expand_less</span><br>
-                    décrire au moins deux modèles de résolution de problèmes.
-                    - décrire les étapes du processus de développement d’un logiciel définition de
-                    problèmes, analyse, conception, implémentation, mise au point et maintenance).
-                    - définir les structures normalisées de contrôle et de données.
-                    - trouver de la documentation de référence en ligne et hors ligne.
-                    - expliquer le fonctionnement des composants de base d’un ordinateur.
-                    - développer des programmes en suivant les étapes du processus de design d’un
-                    logiciel.
-                    - utiliser des techniques de programmation déjà établies (p. ex., fichiers d’en-tête,
-                    lignes en retrait, documentation interne, noms de variables descriptifs).
-                    - produire une documentation interne et externe appropriée.
-                    - utiliser correctement un système d’exploitation, notamment un réseau.
-                </p>
+    <div class="header-body">
+
+        <!-- ***** Header Area Start ***** -->
+        <header class="header-area header-sticky">
+            <div class="header-container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <input type="checkbox" id="check">
+                            <label for="check">
+                                <i id="btn"><img src="Images/menu.png"></i>
+                                <i id="cancel"><img src="Images/menu.png"></i>
+                            </label>
+                            <div class="sidebar">
+                                <a href="#" class="active">
+
+                                    <span>ICS4U</span>
+                                </a>
+                                <a href="#">
+
+                                    <span>ICS4C</span>
+                                </a>
+                                <a href="#">
+
+                                    <span>ICS3U</span>
+                                </a>
+                                <a href="#">
+
+                                    <span>ICS3C</span>
+                                </a>
+                                <a href="#">
+
+                                    <span>ICS2O</span>
+                                </a>
+                                <a href="#">
+
+                                    <span>MDM4U</span>
+                                </a>
+                            </div>
+                            <!-- ***** Logo Start ***** -->
+                            <a href="index.html" class="logo">
+                                ICS
+                            </a>
+                            <!-- ***** Logo End ***** -->
+                            <!-- ***** Menu Start ***** -->
+                            <ul class="nav">
+                                <li><a href="index.html">Accueil</a></li>
+                                <li class="has-sub">
+                                    <a>Cours</a>
+                                    <ul class="sub-menu">
+                                        <li><a>ICS4U</a></li>
+                                        <li><a>ICS4C</a></li>
+                                        <li><a>ICS3U</a></li>
+                                        <li><a>ICS3C</a></li>
+                                        <li><a>ICS2O</a></li>
+                                        <li><a>MDM4U</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-sub">
+                                    <a>Tuteurs</a>
+                                    <ul class="sub-menu">
+                                        <li class="has-sub">
+                                            <a>ICS4U</a>
+                                            <ul>
+                                                <li>tuteur 1</li>
+                                                <li>tuteur 2</li>
+                                                <li>tuteur 3</li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-sub">
+                                            <a>ICS4C</a>
+                                            <ul>
+                                                <li>tuteur 1</li>
+                                                <li>tuteur 2</li>
+                                                <li>tuteur 3</li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-sub">
+                                            <a>ICS3U</a>
+                                            <ul>
+                                                <li>tuteur 1</li>
+                                                <li>tuteur 2</li>
+                                                <li>tuteur 3</li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-sub">
+                                            <a>ICS3C</a>
+                                            <ul>
+                                                <li>tuteur 1</li>
+                                                <li>tuteur 2</li>
+                                                <li>tuteur 3</li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-sub">
+                                            <a>ICS2O</a>
+                                            <ul>
+                                                <li>tuteur 1</li>
+                                                <li>tuteur 2</li>
+                                                <li>tuteur 3</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="carriere.html">Carrière Possibles</a></li>
+                                <li><a href="#Contact">Contactez-nous</a></li>
+                                <li><a href="">Chat</a></li>
+                                <li><a href="">Login</a></li>
+                            </ul>
+
+                            <a class='menu-trigger'>
+                                <span>Menu</span>
+                            </a>
+                            <!-- ***** Menu End ***** -->
+                        </nav>
+                    </div>
+                </div>
             </div>
+        </header>
+    </div>
+    <!-- ***** Header Area End ***** -->
 
+
+
+    <div id="main">
+        <p id="preface">Bonjour!</p>
+        <p id="maintitle">Bienvenue sur la page de ICS3U</p>
+        <p id="maindescription">Ici, vous pouvez trouver tout l'information pertinente sur le programme
+            <br>
+            dont le syllabus avec des descriptions détaillées des travaux, les évaluations sommatives, les unités,
+            et
+            les formatifs.
+        </p>
+        <div id="clicker"><a
+                href="https://drive.google.com/file/d/13hPpb10rj2hSuEC4zij66SX1_-84Pfo5/view?usp=sharing">DÉCOUVREZ
+                LE SYLLABUS</a></div>
+        <div id="syllabus">
+            <p>
+                <span class="material-symbols-rounded">expand_less</span><br>
+                Attentes<br>
+                - Décrire au moins deux modèles de résolution de problèmes.<br>
+                - Décrire les étapes du processus de développement d’un logiciel (définition de
+                problèmes, analyse, conception, implémentation, mise au point et maintenance).<br>
+                - Définir les structures normalisées de contrôle et de données.<br>
+                - Trouver de la documentation de références en ligne et hors ligne.<br>
+                - Expliquer le fonctionnement des composants de base d’un ordinateur.<br>
+                - Développer des programmes en suivant les étapes du processus de design d’un
+                logiciel.<br>
+                - Utiliser des techniques de programmation déjà établies (p. ex., fichiers d’en-tête,
+                lignes en retrait, documentation interne, noms de variables descriptifs).<br>
+                - Produire une documentation interne et externe appropriée.<br>
+                - Utiliser correctement un système d’exploitation, notamment un réseau.
+            </p>
         </div>
+
+    </div>
     </body>
 
     <div class="corps">
@@ -81,7 +208,7 @@
                 <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
                 <div class="image-list">
                     <a href="Unité1/u1.html">
-                        <div class="image-item">
+                        <div class="image-item" id="U1">
                             <p class="nom-unites">Unité 1</p>
                             <p class="description-unites">- Écrire un algorithme et un programme de base en Python<br>
                                 - Les règles d’écriture d’un programme en Python<br>
@@ -92,6 +219,18 @@
                             <p class="langue">
                                 Langage: Python
                             </p>
+                            <div class="mini-description" id="m1">
+                                <p>
+                                    <span class="material-symbols-rounded">expand_less</span><br>
+                                    - Les règles d’écriture d’un programme en Python<br>
+                                    - Les variables et les structures de décision, de conditions<br>
+                                    - Concevoir des programmes qui répondent à des problèmes mathématiques donnés<br>
+                                    - Concevoir des imbrications de structures de décisions imbriquées<br>
+                                    - Utiliser les boucles pour des situations répétitives
+                                </p>
+                            </div>
+
+
                             <!-- <img src="Images/i1.jpg" alt="img-1"> -->
                         </div>
                     </a>
