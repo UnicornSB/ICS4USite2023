@@ -1,3 +1,4 @@
+/* Le font pour la page */
 @font-face {
   font-family: "CustomFont";
   src: url(Resources/OpenSans-VariableFont_wdth,wght.ttf) format("truetype");
@@ -7,7 +8,7 @@ body {
   font-family: "CustomFont";
   background-color: #C0C0C0;
 } 
-
+/* Section de la vidéo de fond */
 #bg-video {
   width: 100%;
   object-fit: cover;
@@ -16,13 +17,12 @@ body {
   right: 0;
  height: 100%;
 }
-
 .grandimage{
   width: 100%;
   height: auto;
   position: relative;
 }
-
+/* section de la vidéo de fond termine */
 .grandimage #titrevid {
   text-align: center;
   padding-top: 5em;
@@ -30,8 +30,9 @@ body {
   font-weight: bold;
   width: 100%;
   color: #fff;
-
 }
+
+/* section de description du cours */
 .grandimage #textvid {
   margin-top: 6em;
   margin-left: 10em;
@@ -48,7 +49,6 @@ width: 40%;
 text-align: center;
 box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
-
 #syllabus{
  background-color:#8289BF;
  width: 20%;
@@ -62,12 +62,12 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
  border-radius: 3em;
  margin-bottom: 5em;
 }
+/* section de description du cours termine */
 
-/* Code pour le slider */
+/* Section pour le slider */
 #syllabus:hover{
   background-color:#696c86 ;
 }
-
 .container {
   max-width: 1500px;
   width: 95%;
@@ -76,11 +76,9 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   margin-right: auto;
   padding-top: 2EM;
 }
-
 .slider-wrapper {
   position: relative;
 }
-
 .slider-wrapper .slide-button {
   position: absolute;
   top: 50%;
@@ -99,20 +97,16 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   transform: translateY(-50%);
 }
-
 .slider-wrapper .slide-button:hover {
   background: #404040;
 }
-
 .slider-wrapper .slide-button#prev-slide {
   display: none;
   left: -20px;
 }
-
 .slider-wrapper .slide-button#next-slide {
   right: -60px;
 }
-
 .slider-wrapper .image-list {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -123,17 +117,16 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   overflow-x: auto;
   scrollbar-width: none;
 }
-
 .slider-wrapper .image-list::-webkit-scrollbar {
   display: none;
 }
-
+/* change la taille des images */
 .slider-wrapper .image-list .image-item {
   width: 500px;
   height: 500px;
   border-radius: 5px;
 }
-
+/* Section de slider termine */
 
 @media only screen and (max-width: 600PX) {
   .slider-wrapper .slide-button {
@@ -154,7 +147,6 @@ box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   #prev-slide {
     left: 5px;
 }
-
 
 #next-slide {
     right: 5px;
