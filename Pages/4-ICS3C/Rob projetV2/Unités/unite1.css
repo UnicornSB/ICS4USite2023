@@ -1,4 +1,4 @@
-
+/*Section de tous la page */
 .row{
     display: flex;
     position: absolute;
@@ -11,6 +11,9 @@
      flex-direction: column;
      color: gray;
  }
+/* Section de tous la page termine */
+
+/* Section de description d'unité */
  #top{
      background-color: #9E0508;
      padding-bottom: 3em;
@@ -26,15 +29,17 @@
  #texttop{ 
      font-size: 0.8em;
  }
+  /* Section de description d'unité termine */
+
+  /* flex la reste du page */
  .rest{
    padding-top: 3em;
      display: flex;
      flex-direction: row;
      width: 100%;
      justify-content: space-between;
- 
  }
-
+ /* Section des leçons */
  .lesson{
      background-color: #C0C0C0;
      border-radius: 5em;
@@ -50,6 +55,9 @@
  width: 70%;
  text-align: center;
  } 
+ /* Section des leçons termine */
+
+ /* Section de activité */
  .activités{
      background-color:#8289BF;
      border-radius: 5em;
@@ -58,49 +66,53 @@
      padding: 1em;
      font-size: 1.5em;
  }
-
  .activités:hover{
      animation: mid 0.5s forwards ;
  }
  #act{
      padding-left: 2em;
  }
+
+ @keyframes mid {
+    0%{
+        scale: 1.05
+    }
+    15%{
+       scale: 1.07
+   }
+    25%{
+        scale: 1.1
+    }
+   35%{
+       scale: 1.125
+   }
+    50%{
+        scale: 1.15
+    }
+    75%{
+       scale: 1.155
+   }
+    100%{
+        scale: 1.2
+    }
+}
+ /* Section de activité termine */
+
+ /* Section de .formatif commence */
  .formatif{
      background-color: #C0C0C0;
      border-radius: 5em;
      text-align: center;
      padding: 1em;
      font-size: 1.5em;
-
  }
  .formatif:hover{
      transform: translate(-42px, -18px);
      
  }
- 
- @keyframes mid {
-     0%{
-         scale: 1.05
-     }
-     15%{
-        scale: 1.07
-    }
-     25%{
-         scale: 1.1
-     }
-    35%{
-        scale: 1.125
-    }
-     50%{
-         scale: 1.15
-     }
-     75%{
-        scale: 1.155
-    }
-     100%{
-         scale: 1.2
-     }
- }
+ /* Section de .formatif commence */
+
+ /* la boutton */
  #button1{
 position: absolute;
   left: 41%;
