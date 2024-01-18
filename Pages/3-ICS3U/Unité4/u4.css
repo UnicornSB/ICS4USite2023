@@ -10,7 +10,9 @@ h1 {
     font-family: "Comfortaa";
     color: white;
 }
-
+.petit{
+    font-size: 0.9em;
+}
 .gras {
     font-weight: bold;
 }
@@ -30,7 +32,7 @@ h1 {
 .Leçons {
     border-radius: 3em;
     background: grey;
-    height: 46em;
+    height: 53em;
     width: 28em;
     margin-left: 1em;
     background-image: url(fond-unites.webp);
@@ -99,7 +101,7 @@ h1 {
 .Travaux {
     border-radius: 3em;
     background: grey;
-    height: 46em;
+    height: 53em;
     width: 28em;
     margin-left: 1em;
     background-image: url(fond-unites.webp);
@@ -130,7 +132,7 @@ h1 {
 .Évaluations {
     border-radius: 3em;
     background: grey;
-    height: 46em;
+    height: 53em;
     width: 28em;
     margin-left: 1em;
     background-image: url(fond-unites.webp);

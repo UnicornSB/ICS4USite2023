@@ -10,9 +10,13 @@ h1 {
     font-family: "Comfortaa";
     color: white;
 }
-.gras{
+.petit{
+    font-size: 0.9em;
+}
+.gras {
     font-weight: bold;
 }
+
 .center-divs {
     display: flex;
 }
@@ -46,10 +50,11 @@ h1 {
     display: flex;
 }
 
-.item:hover{
+.item:hover {
     transform: scale(105%);
 }
-.item p{
+
+.item p {
     margin-left: 1em;
     font-family: "Comfortaa";
     font-size: 15px;
@@ -97,12 +102,13 @@ h1 {
     border-radius: 3em;
     background: grey;
     height: 46em;
-    width: 28em; 
+    width: 28em;
     margin-left: 1em;
     background-image: url(fond-unites.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .Évaluations {
     border-radius: 3em;
     background: grey;
