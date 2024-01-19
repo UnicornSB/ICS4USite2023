@@ -111,7 +111,7 @@ body {
 }
 
 #maindescription {
-  font-size: medium;
+  font-size: 20px;
   color: white;
   margin-top: 1em;
 }
@@ -139,6 +139,9 @@ body {
 }
 
 #clicker:hover+#syllabus {
+  display: block;
+}
+#syllabus:hover{
   display: block;
 }
 
@@ -278,7 +281,13 @@ body {
   margin-left: 177px;
   margin-top: 30px;
 }
-
+.slider-wrapper .image-list .image-item p {
+  font-size: 18px;
+  font-family: "Comfortaa";
+  color: white;
+  text-align: center;
+  padding-top: 16px;
+}
 .slider-wrapper .image-list .image-item .nom-unites {
   font-size: 40px;
   font-family: "Comfortaa";
