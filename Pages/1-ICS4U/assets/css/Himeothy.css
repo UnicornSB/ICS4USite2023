@@ -1,0 +1,38 @@
+a img {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    height:25%;
+    width:50%;
+    position:relative;
+    left:20em;
+}
+
+/* footer */
+footer {
+    height: 50px;
+    position: relative;
+    vertical-align: middle;
+    margin: 0;
+  }
+  
+  footer .footContent {
+    display:flex;
+  }
+  
+  footer .col-lg-12 {
+    padding-top: 30px;
+    background-image: url('assets/Images/meetings-bg.jpg');
+  }
+  
+  footer p {
+    margin: 0;
+    display: block;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  
+
