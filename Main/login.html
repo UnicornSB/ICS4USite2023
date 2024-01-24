@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- references au css -->
+    <link rel="stylesheet" href="frontPage.css">
+    <!-- pour faire references au javascript -->
+    <script src="js/script.js" defer></script>
+    <title>Main Page</title>
+</head>
+<body>
+ <!-- Section du haut de la page (Header) -->
+ <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Barre de navigation principale -->
+                <nav class="main-nav">
+                    <!-- Bouton de menu pour les dispositifs mobiles -->
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <!-- Icônes du menu et de fermeture -->
+                        <i id="btn"><img src="Images/menu.png"></i>
+                        <i id="cancel"><img src="Images/menu.png"></i>
+                    </label>
+                    <!-- Sidebar avec les liens de cours -->
+                    <div class="sidebar">
+                        <!-- Liens vers les différents cours -->
+                        <a href="../Fabrice_s_cursed_text/index.html" class="active"><span>ICS4U</span></a>
+                        <a href="../2-ISC4C/index.html"><span>ICS4C</span></a>
+                        <a href="../3-ICS3U/index.html"><span>ICS3U</span></a>
+                        <a href="../4-ICS3C/index.html"><span>ICS3C</span></a>
+                        <a href="../5-ICS2O/index.html"><span>ICS2O</span></a>
+                        <a href="../pageCreate/index.html"><span>Creation de Pages</span></a>
+                    </div>
+                    
+                    <!-- Logo de la page -->
+                    <a href="index.html" class="logo">
+                        ICS
+                    </a>
+                    
+                    <!-- Menu principal -->
+                    <ul class="nav">
+                        <!-- Liens vers les différentes sections de la page -->
+                        <li><a href="index.html">Accueil</a></li>
+                        <li class="has-sub">
+                            <a>Cours</a>
+                            <!-- Sous-menu des cours -->
+                            <ul class="sub-menu">
+                                <li><a href="../Fabrice_s_cursed_text/index.html">ICS4U</a></li>
+                                <li><a href="../2-ISC4C/index.html">ICS4C</a></li>
+                                <li><a href="../3-ICS3U/index.html">ICS3U</a></li>
+                                <li><a href="../4-ICS3C/index.html">ICS3C</a></li>
+                                <li><a href="../5-ICS2O/index.html">ICS2O</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a>Tuteurs</a>
+                            <!-- Sous-menu des tuteurs par cours -->
+                            <ul class="sub-menu">
+                                <!-- Tuteurs pour ICS4U -->
+                                <li class="has-sub">
+                                    <a href="../Fabrice_s_cursed_text/index.html">ICS4U</a>
+                                    <ul>
+                                        <li>tuteur 1</li>
+                                        <li>tuteur 2</li>
+                                        <li>tuteur 3</li>
+                                    </ul>
+                                </li>
+                                <!-- Tuteurs pour ICS4C -->
+                                <li class="has-sub">
+                                    <a href="../2-ISC4C/index.html">ICS4C</a>
+                                    <ul>
+                                        <li>tuteur 1</li>
+                                        <li>tuteur 2</li>
+                                        <li>tuteur 3</li>
+                                    </ul>
+                                </li>
+                                <!-- Tuteurs pour ICS3U -->
+                                <li class="has-sub">
+                                    <a href="../3-ICS3U/index.html">ICS3U</a>
+                                    <ul>
+                                        <li>tuteur 1</li>
+                                        <li>tuteur 2</li>
+                                        <li>tuteur 3</li>
+                                    </ul>
+                                </li>
+                                <!-- Tuteurs pour ICS3C -->
+                                <li class="has-sub">
+                                    <a href="../4-ICS3C/index.html">ICS3C</a>
+                                    <ul>
+                                        <li>tuteur 1</li>
+                                        <li>tuteur 2</li>
+                                        <li>tuteur 3</li>
+                                    </ul>
+                                </li>
+                                <!-- Tuteurs pour ICS2O -->
+                                <li class="has-sub">
+                                    <a href="../5-ICS2O/index.html">ICS2O</a>
+                                    <ul>
+                                        <li>tuteur 1</li>
+                                        <li>tuteur 2</li>
+                                        <li>tuteur 3</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Autres liens de navigation -->
+                        <li><a href="carriere.html">Carrière Possibles</a></li>
+                        <li><a href="#Contact">Contactez-nous</a></li>
+                        <li><a href="../pageCreate/index.html">Creation de Pages</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                    
+                    <!-- Déclencheur du menu pour les dispositifs mobiles -->
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Fin de la section Header -->
+<!-- La division (div) qui englobe le formulaire de connexion -->
+<div class="login-div">
+    <!-- Conteneur du formulaire de connexion -->
+    <div class="login-container">
+        <!-- Formulaire de connexion -->
+        <form>
+            <!-- Champ de saisie pour le nom d'utilisateur -->
+            <label for="username" class="login-label">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username" class="login-input" required>
+    
+            <!-- Champ de saisie pour le mot de passe -->
+            <label for="password" class="login-label">Mot de passe :</label>
+            <input type="password" id="password" name="password" class="login-input" required>
+    
+            <!-- Bouton de soumission du formulaire de connexion -->
+            <button type="submit" class="login-button">Connexion</button>
+        </form>
+    </div>
+</div>
+</body>
+
+</html>

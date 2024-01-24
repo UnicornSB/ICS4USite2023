@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- references au css -->
+    <link rel="stylesheet" href="frontPage.css">
+    <!-- pour faire references au javascript -->
+    <script src="js/script.js" defer></script>
+    <title>Main Page</title>
+</head>
+<body>
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Barre de navigation principale -->
+                    <nav class="main-nav">
+                        <!-- Bouton de menu pour les dispositifs mobiles -->
+                        <input type="checkbox" id="check">
+                        <label for="check">
+                            <!-- Icônes du menu et de fermeture -->
+                            <i id="btn"><img src="Images/menu.png"></i>
+                            <i id="cancel"><img src="Images/menu.png"></i>
+                        </label>
+                        <!-- Sidebar avec les liens de cours -->
+                        <div class="sidebar">
+                            <!-- Liens vers les différents cours -->
+                            <a href="../Fabrice_s_cursed_text/index.html" class="active"><span>ICS4U</span></a>
+                            <a href="../2-ISC4C/index.html"><span>ICS4C</span></a>
+                            <a href="../3-ICS3U/index.html"><span>ICS3U</span></a>
+                            <a href="../4-ICS3C/index.html"><span>ICS3C</span></a>
+                            <a href="../5-ICS2O/index.html"><span>ICS2O</span></a>
+                            <a href="../pageCreate/index.html"><span>Creation de Pages</span></a>
+                        </div>
+                        
+                        <!-- Logo de la page -->
+                        <a href="index.html" class="logo">
+                            ICS
+                        </a>
+                        
+                        <!-- Menu principal -->
+                        <ul class="nav">
+                            <!-- Liens vers les différentes sections de la page -->
+                            <li><a href="index.html">Accueil</a></li>
+                            <li class="has-sub">
+                                <a>Cours</a>
+                                <!-- Sous-menu des cours -->
+                                <ul class="sub-menu">
+                                    <li><a href="../Fabrice_s_cursed_text/index.html">ICS4U</a></li>
+                                    <li><a href="../2-ISC4C/index.html">ICS4C</a></li>
+                                    <li><a href="../3-ICS3U/index.html">ICS3U</a></li>
+                                    <li><a href="../4-ICS3C/index.html">ICS3C</a></li>
+                                    <li><a href="../5-ICS2O/index.html">ICS2O</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-sub">
+                                <a>Tuteurs</a>
+                                <!-- Sous-menu des tuteurs par cours -->
+                                <ul class="sub-menu">
+                                    <!-- Tuteurs pour ICS4U -->
+                                    <li class="has-sub">
+                                        <a href="../Fabrice_s_cursed_text/index.html">ICS4U</a>
+                                        <ul>
+                                            <li>tuteur 1</li>
+                                            <li>tuteur 2</li>
+                                            <li>tuteur 3</li>
+                                        </ul>
+                                    </li>
+                                    <!-- Tuteurs pour ICS4C -->
+                                    <li class="has-sub">
+                                        <a href="../2-ISC4C/index.html">ICS4C</a>
+                                        <ul>
+                                            <li>tuteur 1</li>
+                                            <li>tuteur 2</li>
+                                            <li>tuteur 3</li>
+                                        </ul>
+                                    </li>
+                                    <!-- Tuteurs pour ICS3U -->
+                                    <li class="has-sub">
+                                        <a href="../3-ICS3U/index.html">ICS3U</a>
+                                        <ul>
+                                            <li>tuteur 1</li>
+                                            <li>tuteur 2</li>
+                                            <li>tuteur 3</li>
+                                        </ul>
+                                    </li>
+                                    <!-- Tuteurs pour ICS3C -->
+                                    <li class="has-sub">
+                                        <a href="../4-ICS3C/index.html">ICS3C</a>
+                                        <ul>
+                                            <li>tuteur 1</li>
+                                            <li>tuteur 2</li>
+                                            <li>tuteur 3</li>
+                                        </ul>
+                                    </li>
+                                    <!-- Tuteurs pour ICS2O -->
+                                    <li class="has-sub">
+                                        <a href="../5-ICS2O/index.html">ICS2O</a>
+                                        <ul>
+                                            <li>tuteur 1</li>
+                                            <li>tuteur 2</li>
+                                            <li>tuteur 3</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- Autres liens de navigation -->
+                            <li><a href="carriere.html">Carrière Possibles</a></li>
+                            <li><a href="#Contact">Contactez-nous</a></li>
+                            <li><a href="../pageCreate/index.html">Creation de Pages</a></li>
+                            <li><a href="login.html">Login</a></li>
+                        </ul>
+                        
+                        <!-- Déclencheur du menu pour les dispositifs mobiles -->
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Fin de la section Header -->
+<!-- Division (div) qui englobe les informations sur les carrières -->
+<div class="carriere-div">
+    <!-- Conteneur principal -->
+    <div class="container1">
+        <!-- Boîte d'informations pour le poste d'Ingénieur Logiciel -->
+        <div class="info-box" id="box1">
+            Ingénieur Logiciel
+            <!-- Informations supplémentaires sur le poste d'Ingénieur Logiciel -->
+            <p class="additional-info">Un Ingénieur Logiciel conçoit, développe et entretient des logiciels. Cela inclut la programmation, la résolution de problèmes, la gestion de projets logiciels, et la collaboration avec d'autres professionnels pour créer des applications informatiques ou des systèmes logiciels. Les ingénieurs logiciels peuvent travailler dans divers domaines tels que le développement d'applications, les jeux vidéo, l'intelligence artificielle, la cybersécurité, et bien d'autres.</p>
+        </div>
+        
+        <!-- Boîte d'informations pour le poste de Développeur Web -->
+        <div class="info-box" id="box2">
+            Développeur Web
+            <!-- Informations supplémentaires sur le poste de Développeur Web -->
+            <p class="additional-info">Un Développeur Web conçoit, crée et entretient des sites web. Cela implique la programmation des éléments visuels et interactifs d'une page web, ainsi que la gestion des bases de données et des serveurs. Les développeurs web travaillent avec des langages de programmation tels que HTML, CSS, JavaScript et des frameworks comme React ou Angular. Ils collaborent souvent avec des concepteurs web pour s'assurer que le site a une apparence attrayante et une expérience utilisateur fluide. Les tâches peuvent également inclure la résolution de problèmes techniques, l'optimisation des performances du site et le suivi des normes de sécurité.</p>
+        </div>
+        
+        <!-- Boîte d'informations pour le poste de Data Scientist -->
+        <div class="info-box" id="box3">
+            Data Scientist
+            <!-- Informations supplémentaires sur le poste de Data Scientist -->
+            <p class="additional-info">Un Data Scientist analyse des données pour en extraire des informations et des tendances significatives. Cela implique l'utilisation de techniques statistiques, de l'apprentissage machine et de l'exploration de données pour résoudre des problèmes complexes et prendre des décisions éclairées. Les data scientists travaillent souvent avec des ensembles de données volumineux pour identifier des modèles, faire des prédictions et contribuer à la prise de décision dans divers domaines tels que les affaires, la santé, et la recherche.</p>
+        </div>
+    </div>
+</div>
+</body>
+
+<!-- Pied de page -->
+<footer>
+    <!-- Commenté temporairement : Image dans le pied de page -->
+    <!-- <div class="footerimg"><img src="Images/blobs.png"></div> -->
+    
+    <!-- Colonne de largeur 12 pour le pied de page -->
+    <div class="col-lg-12">
+        <!-- Contenu du pied de page -->
+        <div class="footContent"> 
+            <!-- Liste des liens vers les réseaux sociaux -->
+            <ul>
+                <li> <a href="https://www.instagram.com/esp_delasalle/" target="_blank">Instagram</a></li>
+                <li> <a href="https://www.facebook.com/ESPDeLaSalle/" target="_blank">Facebook</a></li>
+                <li> <a href="https://www.linkedin.com/checkpoint/challenge/AgFEgKS2_FVRJQAAAY0TUGmCkGSOqE3VudhcfSfK9eyvpR2ZOdEWvClc_si8JpCnF75afwIP6L57u0YLcuf7puzyQeIdBw?ut=0F8qgGfHJnJH41" target="_blank">LinkedIn</a></li>
+                <li> <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FESPDeLaSalle" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+        
+        <!-- Mention de droits d'auteur -->
+        <p>Copyright © 2024 De La Salle Ecole Secondaire Publique. Tous droits réservés.</p>
+    </div>
+</footer>
+  </html>

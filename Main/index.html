@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Déclaration du type de document et de la langue -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Liaison à la police Google Poppins -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    
+    <!-- Références au fichier de style CSS -->
+    <link rel="stylesheet" href="frontPage.css">
+    
+    <!-- Références au fichier JavaScript avec chargement différé -->
+    <script src="js/script.js" defer></script>
+    
+    <!-- Titre de la page -->
+    <title>Main Page</title>
+</head>
+<body>
+<!-- Section du haut de la page (Header) -->
+<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Barre de navigation principale -->
+                <nav class="main-nav">
+                    <!-- Bouton de menu pour les dispositifs mobiles -->
+                    <input type="checkbox" id="check">
+                    <label for="check">
+                        <!-- Icônes du menu et de fermeture -->
+                        <i id="btn"><img src="Images/menu.png"></i>
+                        <i id="cancel"><img src="Images/menu.png"></i>
+                    </label>
+                    <!-- Sidebar avec les liens de cours -->
+                    <div class="sidebar">
+                        <!-- Liens vers les différents cours -->
+                        <a href="../Fabrice_s_cursed_text/index.html" class="active"><span>ICS4U</span></a>
+                        <a href="../2-ISC4C/index.html"><span>ICS4C</span></a>
+                        <a href="../3-ICS3U/index.html"><span>ICS3U</span></a>
+                        <a href="../4-ICS3C/index.html"><span>ICS3C</span></a>
+                        <a href="../5-ICS2O/index.html"><span>ICS2O</span></a>
+                        <a href="../pageCreate/index.html"><span>Creation de Pages</span></a>
+                    </div>
+                    
+                    <!-- Logo de la page -->
+                    <a href="index.html" class="logo">
+                        ICS
+                    </a>
+                    
+                    <!-- Menu principal -->
+                    <ul class="nav">
+                        <!-- Liens vers les différentes sections de la page -->
+                        <li><a href="index.html">Accueil</a></li>
+                        <li class="has-sub">
+                            <a>Cours</a>
+                            <!-- Sous-menu des cours -->
+                            <ul class="sub-menu">
+                                <li><a href="../Fabrice_s_cursed_text/index.html">ICS4U</a></li>
+                                <li><a href="../2-ISC4C/index.html">ICS4C</a></li>
+                                <li><a href="../3-ICS3U/index.html">ICS3U</a></li>
+                                <li><a href="../4-ICS3C/index.html">ICS3C</a></li>
+                                <li><a href="../5-ICS2O/index.html">ICS2O</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a>Tuteurs</a>
+                            <!-- Sous-menu des tuteurs par cours -->
+                            <ul class="sub-menu">
+                                <!-- Tuteurs pour ICS4U -->
+                                <li class="has-sub">
+                                    <a href="../Fabrice_s_cursed_text/index.html">ICS4U</a>
+                                    <ul>
+                                        <li>tuteur 1</li>
+                                        <li>tuteur 2</li>
+                                        <li>tuteur 3</li>
+                                    </ul>
+                                </li>
+                                <!-- Tuteurs pour ICS4C -->
+                                <li class="has-sub">
+                                    <a href="../2-ISC4C/index.html">ICS4C</a>
+                                    <ul>
+                                        <li>tuteur 1</li>
+                                        <li>tuteur 2</li>
+                                        <li>tuteur 3</li>
+                                    </ul>
+                                </li>
+                                <!-- Tuteurs pour ICS3U -->
+                                <li class="has-sub">
+                                    <a href="../3-ICS3U/index.html">ICS3U</a>
+                                    <ul>
+                                        <li>tuteur 1</li>
+                                        <li>tuteur 2</li>
+                                        <li>tuteur 3</li>
+                                    </ul>
+                                </li>
+                                <!-- Tuteurs pour ICS3C -->
+                                <li class="has-sub">
+                                    <a href="../4-ICS3C/index.html">ICS3C</a>
+                                    <ul>
+                                        <li>tuteur 1</li>
+                                        <li>tuteur 2</li>
+                                        <li>tuteur 3</li>
+                                    </ul>
+                                </li>
+                                <!-- Tuteurs pour ICS2O -->
+                                <li class="has-sub">
+                                    <a href="../5-ICS2O/index.html">ICS2O</a>
+                                    <ul>
+                                        <li>tuteur 1</li>
+                                        <li>tuteur 2</li>
+                                        <li>tuteur 3</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Autres liens de navigation -->
+                        <li><a href="carriere.html">Carrière Possibles</a></li>
+                        <li><a href="#Contact">Contactez-nous</a></li>
+                        <li><a href="../pageCreate/index.html">Creation de Pages</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                    
+                    <!-- Déclencheur du menu pour les dispositifs mobiles -->
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Fin de la section Header -->
+
+<!-- Section de la bannière principale -->
+<section class="section main-banner" id="top" data-section="section1">
+    <!-- Vidéo de fond pour la bannière principale -->
+    <video autoplay muted loop id="bg-video">
+        <source src="Images/video.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Superposition de la vidéo avec le texte d'accueil -->
+    <div class="video-overlay header-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="caption">
+                        <h6>Bienvenue</h6>
+                        <h2>Bienvenue à Cours ICS</h2>
+                        <!-- Description du cours ICS -->
+                        <p>Ce cours développe les connaissances et les compétences des étudiants en informatique. Les élèves conçoivent et écrivent des programmes en utilisant la programmation orientée objet afin de développer des algorithmes pour résoudre une variété de problèmes. L'élève a l'occasion d'appliquer les techniques de programmation et de gestion de projet dans le cadre d'un projet géré par l'élève. Les élèves exploreront l'étendue des sujets d'études liés à l'informatique en étudiant des sujets relatifs à la théorie de l'informatique, aux possibilités de carrière en informatique, à l'impact des technologies émergentes, ainsi qu'aux questions et pratiques éthiques dans le domaine de l'informatique</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fin de la section de la bannière principale -->
+
+<!-- Section sur les cours ICS -->
+<section>
+    <div class="section about-us">
+        <div class="container">
+            <div class="row">
+                <!-- Section des questions fréquentes avec réponses -->
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="accordion" id="accordionExample">
+                        <!-- Première question -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button id= "button1"class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    QUELS LANGUAGES SONT APPRIS?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">-PYTHON <br> -JAVASCRIPT<br> -HTML<br> -CSS<br> -C#<br> -VISUAL BASICS</div>
+                            </div>
+                        </div>
+                        <!-- Deuxième question -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button id= "button2" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    QUE VAIS-JE APPRENDRE DANS UN COURS ICS
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Dans ces cours, vous apprendrez des langages de programmation, des compétences en résolution de problèmes, le développement d'algorithmes, et divers concepts liés au développement logiciel. Les cours peuvent couvrir des sujets tels que le développement web, la science des données ou les systèmes informatiques.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Troisième question -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button id= "button3" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    LES COURS ICS PEUVENT-ILS AIDER AVEC LA PRÉPARATION DE L'UNIVERSITÉ
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Oui, les cours de sciences informatiques peuvent améliorer la préparation pour l'université et la carrière en fournissant une solide base de compétences liées à la technologie. De nombreuses universités et employeurs apprécient les candidats ayant des antécédents en sciences informatiques.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Quatrième question -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button id= "button4" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    QUELS COURS SONT OFFERTS DANS LE CADRE DE ICS
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body"><p>Les cours offerts dans le cadre de ICS sont le ICS4U, le ICS4C, le ISC3U, le ICS3c, et le ICS2O</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section de droite avec la description des cours -->
+                <div class="col-lg-5 align-self-center">
+                    <div class="section-heading">
+                        <h2>Choix De Cours Optimal</h2>
+                        <!-- Description des avantages des cours ICS -->
+                        <p>Ces cours enseignent la pensée logique, la résolution de problèmes et la programmation, des compétences qui sont de plus en plus cruciales dans divers domaines professionnels. En comprenant les bases de l'informatique, les élèves développent une capacité à innover, à créer des solutions technologiques, et à s'adapter aux évolutions rapides de la société. De plus, cela ouvre des portes vers des carrières stimulantes dans le développement de logiciels, la science des données, la cybersécurité et d'autres domaines liés à la technologie. En fin de compte, les cours de sciences informatiques préparent les étudiants à réussir dans un monde de plus en plus numérique et à contribuer de manière significative à l'innovation et à la croissance économique.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Carte avec l'emplacement de l'école sur Google Maps -->
+<div class="map-responsive">
+    <iframe
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=/De+La+Salle+Public+High+School/@45.4349972,-75.6869473,17z/data=!3m1!5s0x4cce051c3cce0bdf:0xad891888446ccc0a!4m6!3m5!1s0x4cce051c1a9bd585:0x840e4b6659e6fabf!8m2!3d45.4348805!4d-75.6850054!16zL20vMGZkemdj?entry=ttu"
+        width="600" height="508" frameborder="0" style="border:0; width: 100%;" allowfullscreen></iframe>
+</div>
+
+<!-- Section du pied de page -->
+<footer>
+  <!-- Conteneur pour l'image de fond du pied de page -->
+  <!-- <div class="footerimg"><img src="Images/blobs.png"></div> -->
+  
+  <!-- Conteneur principal pour le pied de page -->
+  <div class="col-lg-12">
+    <!-- Contenu du pied de page -->
+    <div class="footContent"> 
+      <!-- Liste des liens vers les réseaux sociaux -->
+      <ul>
+        <li> <a href="https://www.instagram.com/esp_delasalle/" target="_blank">Instagram</a></li>
+        <li> <a href="https://www.facebook.com/ESPDeLaSalle/" target="_blank">Facebook</a></li>
+        <li> <a href="https://www.linkedin.com/checkpoint/challenge/AgFEgKS2_FVRJQAAAY0TUGmCkGSOqE3VudhcfSfK9eyvpR2ZOdEWvClc_si8JpCnF75afwIP6L57u0YLcuf7puzyQeIdBw?ut=0F8qgGfHJnJH41" target="_blank">LinkedIn</a></li>
+        <li> <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FESPDeLaSalle" target="_blank">Twitter</a></li>
+      </ul>
+      <img src="Images/Logos DLS/download.png">
+    </div>
+
+    <!-- Mention de droits d'auteur -->
+    <p>Copyright © 2024 De La Salle Ecole Secondaire Publique. Tous droits réservés. </p>
+  </div>
+</footer>
+</html>
